@@ -1,0 +1,4 @@
+26,28d25
+<     if (currentByte == 0) {
+<       break;
+<     }

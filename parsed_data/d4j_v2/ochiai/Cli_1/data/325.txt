@@ -1,0 +1,9 @@
+public String toString(){
+ rank2fixstart   StringBuffer buf=new StringBuffer(); rank2fixend 
+  buf.append("[ Options: [ short ");
+  buf.append(shortOpts.toString());
+  buf.append(" ] [ long ");
+  buf.append(longOpts);
+  buf.append(" ]");
+  return buf.toString();
+}

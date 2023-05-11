@@ -1,0 +1,6 @@
+3c3,5
+<   out.append(recordSeparator);
+---
+> if (recordSeparator != null){
+>     out.append(recordSeparator);  
+> }

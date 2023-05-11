@@ -1,0 +1,44 @@
+INFO:root:2023-02-16 20:05:05 --> Current Version: Closure_2
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.TypeCheck@1574
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:05:32 --> Closure_2: (2) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:05:34 --> Closure_2: (2) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:05:52 --> Closure_2: (4) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:05:53 --> Closure_2: (4) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:05:54 --> Closure_2: (4) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:06:05 --> Closure_2: (5) InsertNullPointerChecker1 rank2fixsplit implicitProto
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:06:15 --> Closure_2: (6) MoveStmt rank2fixsplit 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:06:27 --> Closure_2: (7) InsertNullPointerChecker2 rank2fixsplit <unk> rank2fixsplit rank2fixempty
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:06:30 --> Closure_2: (7) InsertNullPointerChecker2 rank2fixsplit <unk> rank2fixsplit rank2fixempty
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:06:32 --> Closure_2: (7) InsertNullPointerChecker2 rank2fixsplit <unk> rank2fixsplit rank2fixempty
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:09:29 --> Closure_2: (9) InsertNullPointerChecker2 rank2fixsplit implicitProto rank2fixsplit rank2fixempty
+INFO:root:Successful

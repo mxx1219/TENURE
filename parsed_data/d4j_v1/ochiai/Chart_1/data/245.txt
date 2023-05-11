@@ -1,0 +1,4 @@
+public KeyedObject(Comparable key,Object object){
+  this.key=key;
+ rank2fixstart   this.object=object; rank2fixend 
+}

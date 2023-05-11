@@ -1,0 +1,3 @@
+public Option(String opt,String description) throws IllegalArgumentException {
+  this(opt,null,false,description);
+}

@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:08:34 --> Current Version: Lang_33
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.lang3.ClassUtils@910
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:08:57 --> Lang_33: (1) InsertNullPointerChecker1 rank2fixsplit array [ i ]
+INFO:root:Successful

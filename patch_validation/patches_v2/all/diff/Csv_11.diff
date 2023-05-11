@@ -1,0 +1,5 @@
+23c23,24
+<         final boolean emptyHeader=header.trim().isEmpty();
+---
+> if (header == null) continue;
+>           final boolean emptyHeader=header.trim().isEmpty();  

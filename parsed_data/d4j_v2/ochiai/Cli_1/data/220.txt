@@ -1,0 +1,4 @@
+public static OptionBuilder withValueSeparator(char sep){
+ rank2fixstart   OptionBuilder.valuesep=sep; rank2fixend 
+  return instance;
+}

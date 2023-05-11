@@ -1,0 +1,3 @@
+public MissingArgumentException(String message){
+  super(message);
+}

@@ -1,0 +1,4 @@
+18,20d17
+<   while ((pos <= text.length()) && ((c=text.charAt(pos)) != ' ') && (c != '\n')&& (c != '\r')) {
+<     ++pos;
+<   }

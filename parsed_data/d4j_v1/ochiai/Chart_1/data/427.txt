@@ -1,0 +1,3 @@
+private static int[] intArray(double a,double b,double c){
+ rank2fixstart   return new int[]{(int)a,(int)b,(int)c}; rank2fixend 
+}

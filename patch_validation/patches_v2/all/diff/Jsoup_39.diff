@@ -1,0 +1,4 @@
+43c43
+<     charsetName=defaultCharset;
+---
+>  doc = null ; charsetName = defaultCharset ;

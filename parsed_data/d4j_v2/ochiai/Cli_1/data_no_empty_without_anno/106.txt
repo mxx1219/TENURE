@@ -1,0 +1,3 @@
+public boolean hasValueSeparator(){
+  return (this.valuesep > 0);
+}

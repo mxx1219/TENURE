@@ -1,0 +1,5 @@
+public void mapDatasetToRangeAxis(int index,int axisIndex){
+  List axisIndices=new java.util.ArrayList(1);
+  axisIndices.add(new Integer(axisIndex));
+ rank2fixstart   mapDatasetToRangeAxes(index,axisIndices); rank2fixend 
+}

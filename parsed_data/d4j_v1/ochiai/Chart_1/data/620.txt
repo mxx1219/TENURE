@@ -1,0 +1,3 @@
+protected AbstractObjectList(int initialCapacity){
+ rank2fixstart   this(initialCapacity,initialCapacity); rank2fixend 
+}

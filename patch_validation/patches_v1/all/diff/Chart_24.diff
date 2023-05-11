@@ -1,0 +1,4 @@
+4c4
+<   int g=(int)((value - this.lowerBound) / (this.upperBound - this.lowerBound) * 255.0);
+---
+>  int g = ( int ) ( ( v - this . lowerBound ) / ( this . upperBound - this . lowerBound ) * 255.0 ) ; 

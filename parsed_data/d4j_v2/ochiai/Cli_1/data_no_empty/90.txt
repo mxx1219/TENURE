@@ -1,0 +1,11 @@
+public String[] getOptionValues(String opt){
+  opt=Util.stripLeadingHyphens(opt);
+ rank2fixstart   String key=opt; rank2fixend 
+  if (names.containsKey(opt)) {
+    key=(String)names.get(opt);
+  }
+  if (options.containsKey(key)) {
+    return ((Option)options.get(key)).getValues();
+  }
+  return null;
+}

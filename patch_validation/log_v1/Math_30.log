@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 19:59:47 --> Current Version: Math_30
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.math3.stat.inference.MannWhitneyUTest@173
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:01:06 --> Math_30: (1) MutateDataType1 rank2fixsplit int rank2fixsplit long
+INFO:root:Successful

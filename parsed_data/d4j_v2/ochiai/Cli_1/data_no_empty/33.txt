@@ -1,0 +1,12 @@
+public static Option create(String opt) throws IllegalArgumentException {
+  Option option=new Option(opt,description);
+  option.setLongOpt(longopt);
+  option.setRequired(required);
+  option.setOptionalArg(optionalArg);
+  option.setArgs(numberOfArgs);
+  option.setType(type);
+ rank2fixstart   option.setValueSeparator(valuesep); rank2fixend 
+  option.setArgName(argName);
+  OptionBuilder.reset();
+  return option;
+}

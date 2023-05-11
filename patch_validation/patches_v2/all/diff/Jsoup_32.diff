@@ -1,0 +1,4 @@
+3c3
+<   clone.classNames();
+---
+>  clone . classNames = null ; clone . classNames ( ) ;

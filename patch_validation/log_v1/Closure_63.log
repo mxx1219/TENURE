@@ -1,0 +1,10 @@
+INFO:root:2023-02-16 20:05:11 --> Current Version: Closure_63
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.LightweightMessageFormatter@97
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:05:29 --> Closure_63: (1) MutateOperators1 rank2fixsplit <= rank2fixsplit <
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:07:37 --> Closure_63: (2) MutateOperators1 rank2fixsplit < rank2fixsplit <=
+INFO:root:Successful

@@ -1,0 +1,5 @@
+ rank2fixstart public KeyedObjects2D(){ rank2fixend 
+  this.rowKeys=new java.util.ArrayList();
+  this.columnKeys=new java.util.ArrayList();
+  this.rows=new java.util.ArrayList();
+}

@@ -1,0 +1,17 @@
+protected Plot(){
+  this.parent=null;
+  this.insets=DEFAULT_INSETS;
+  this.backgroundPaint=DEFAULT_BACKGROUND_PAINT;
+  this.backgroundAlpha=DEFAULT_BACKGROUND_ALPHA;
+  this.backgroundImage=null;
+  this.outlineVisible=true;
+  this.outlineStroke=DEFAULT_OUTLINE_STROKE;
+  this.outlinePaint=DEFAULT_OUTLINE_PAINT;
+  this.foregroundAlpha=DEFAULT_FOREGROUND_ALPHA;
+  this.noDataMessage=null;
+  this.noDataMessageFont=new Font("Tahoma",Font.PLAIN,12);
+  this.noDataMessagePaint=Color.black;
+ rank2fixstart   this.drawingSupplier=new DefaultDrawingSupplier(); rank2fixend 
+  this.notify=true;
+  this.listenerList=new EventListenerList();
+}

@@ -1,0 +1,14 @@
+public Options addOption(Option opt){
+  String key=opt.getKey();
+  if (opt.hasLongOpt()) {
+ rank2fixstart     longOpts.put(opt.getLongOpt(),opt); rank2fixend 
+  }
+  if (opt.isRequired()) {
+    if (requiredOpts.contains(key)) {
+      requiredOpts.remove(requiredOpts.indexOf(key));
+    }
+    requiredOpts.add(key);
+  }
+  shortOpts.put(key,opt);
+  return this;
+}

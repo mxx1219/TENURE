@@ -1,0 +1,23 @@
+public void setObject(Object object,Comparable rowKey,Comparable columnKey){
+  if (rowKey == null) {
+    throw new IllegalArgumentException("Null 'rowKey' argument.");
+  }
+  if (columnKey == null) {
+    throw new IllegalArgumentException("Null 'columnKey' argument.");
+  }
+  KeyedObjects row;
+  int rowIndex=this.rowKeys.indexOf(rowKey);
+  if (rowIndex >= 0) {
+    row=(KeyedObjects)this.rows.get(rowIndex);
+  }
+ else {
+    this.rowKeys.add(rowKey);
+    row=new KeyedObjects();
+ rank2fixstart     this.rows.add(row); rank2fixend 
+  }
+  row.setObject(columnKey,object);
+  int columnIndex=this.columnKeys.indexOf(columnKey);
+  if (columnIndex < 0) {
+    this.columnKeys.add(columnKey);
+  }
+}

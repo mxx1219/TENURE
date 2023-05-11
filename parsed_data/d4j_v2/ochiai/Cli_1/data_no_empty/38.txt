@@ -1,0 +1,3 @@
+ rank2fixstart public void setType(Object type){ rank2fixend 
+  this.type=type;
+}

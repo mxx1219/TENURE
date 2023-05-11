@@ -1,0 +1,3 @@
+public AbstractCategoryDataset(){
+ rank2fixstart   super(); rank2fixend 
+}

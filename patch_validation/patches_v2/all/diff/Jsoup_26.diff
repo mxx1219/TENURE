@@ -1,0 +1,6 @@
+4c4,6
+<   copySafeNodes(dirtyDocument.body(),clean.body());
+---
+> if (dirtyDocument . body ( ) != null){
+>     copySafeNodes(dirtyDocument.body(),clean.body());  
+> }

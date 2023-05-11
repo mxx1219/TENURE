@@ -1,0 +1,3 @@
+public Object getOptionObject(char opt){
+  return getOptionObject(String.valueOf(opt));
+}

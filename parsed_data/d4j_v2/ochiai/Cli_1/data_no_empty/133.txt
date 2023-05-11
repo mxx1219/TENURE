@@ -1,0 +1,7 @@
+private void gobble(Iterator iter){
+ rank2fixstart   if (eatTheRest) { rank2fixend 
+    while (iter.hasNext()) {
+      tokens.add(iter.next());
+    }
+  }
+}

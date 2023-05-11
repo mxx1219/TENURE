@@ -1,0 +1,14 @@
+public LineAndShapeRenderer(boolean lines,boolean shapes){
+  super();
+  this.seriesLinesVisible=new BooleanList();
+  this.baseLinesVisible=lines;
+  this.seriesShapesVisible=new BooleanList();
+  this.baseShapesVisible=shapes;
+  this.seriesShapesFilled=new BooleanList();
+ rank2fixstart   this.baseShapesFilled=true; rank2fixend 
+  this.useFillPaint=false;
+  this.drawOutlines=true;
+  this.useOutlinePaint=false;
+  this.useSeriesOffset=false;
+  this.itemMargin=0.0;
+}

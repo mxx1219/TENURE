@@ -1,0 +1,4 @@
+public static OptionBuilder withValueSeparator(){
+  OptionBuilder.valuesep='=';
+  return instance;
+}

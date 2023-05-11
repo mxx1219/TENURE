@@ -1,0 +1,12 @@
+public void setDataset(int index,CategoryDataset dataset){
+ rank2fixstart   CategoryDataset existing=(CategoryDataset)this.datasets.get(index); rank2fixend 
+  if (existing != null) {
+    existing.removeChangeListener(this);
+  }
+  this.datasets.set(index,dataset);
+  if (dataset != null) {
+    dataset.addChangeListener(this);
+  }
+  DatasetChangeEvent event=new DatasetChangeEvent(this,dataset,new DatasetChangeInfo());
+  datasetChanged(event);
+}

@@ -1,0 +1,20 @@
+INFO:root:2023-02-16 20:51:36 --> Current Version: Lang_39
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.lang3.StringUtils@3676
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:51:45 --> Lang_39: (1) MutateDataType1 rank2fixsplit int rank2fixsplit long
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:51:48 --> Lang_39: (2) InsertNullPointerChecker1 rank2fixsplit <unk> [ i ]
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:51:49 --> Lang_39: (2) InsertNullPointerChecker1 rank2fixsplit <unk> [ i ]
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:51:54 --> Lang_39: (3) InsertNullPointerChecker4 rank2fixsplit <unk> [ i ]
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:52:08 --> Lang_39: (3) InsertNullPointerChecker4 rank2fixsplit <unk> [ i ]
+INFO:root:Successful

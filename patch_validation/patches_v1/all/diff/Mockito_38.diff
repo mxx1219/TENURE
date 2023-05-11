@@ -1,0 +1,5 @@
+2c2,3
+<   return StringDescription.toString(m).equals(arg.toString());
+---
+> if (arg == null) return false;
+>     return StringDescription.toString(m).equals(arg.toString());  

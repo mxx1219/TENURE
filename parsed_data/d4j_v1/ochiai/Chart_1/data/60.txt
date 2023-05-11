@@ -1,0 +1,4 @@
+public void addValue(Number value,Comparable rowKey,Comparable columnKey){
+  this.data.addObject(new SelectableValue(value),rowKey,columnKey);
+ rank2fixstart   fireDatasetChanged(new DatasetChangeInfo()); rank2fixend 
+}

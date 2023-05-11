@@ -1,0 +1,6 @@
+public static Option create() throws IllegalArgumentException {
+  if (longopt == null) {
+ rank2fixstart     throw new IllegalArgumentException("must specify longopt"); rank2fixend 
+  }
+  return create(null);
+}

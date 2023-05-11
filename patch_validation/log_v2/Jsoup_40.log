@@ -1,0 +1,24 @@
+INFO:root:2023-02-16 18:18:13 --> Current Version: Jsoup_40
+INFO:root:defects4j compile ...
+INFO:root:========== org.jsoup.nodes.DocumentType@22
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:18:19 --> Jsoup_40: (1) MutateMethodInvExpr1 rank2fixsplit notEmpty rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:18:23 --> Jsoup_40: (2) MutateMethodInvExpr4 rank2fixsplit name rank2fixsplit rank2fixsplit systemId
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:18:28 --> Jsoup_40: (4) MutateVariable1 rank2fixsplit name rank2fixsplit systemId
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:18:33 --> Jsoup_40: (6) MutateMethodInvExpr1 rank2fixsplit notEmpty rank2fixsplit equals
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:18:42 --> Jsoup_40: (7) RemoveBuggyStmt
+INFO:root:Successful

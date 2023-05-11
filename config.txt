@@ -1,0 +1,6 @@
+d4j_version: v2
+fl_setting: perfect
+bug_version: JacksonDatabind_95
+beam_all: 500
+beam_35: 300
+beam_single: 200

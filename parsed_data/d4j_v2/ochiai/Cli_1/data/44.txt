@@ -1,0 +1,3 @@
+ rank2fixstart public void setOptionalArg(boolean optionalArg){ rank2fixend 
+  this.optionalArg=optionalArg;
+}

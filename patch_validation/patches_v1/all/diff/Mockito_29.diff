@@ -1,0 +1,6 @@
+4c4,6
+<   description.appendText(wanted.toString());
+---
+> if (wanted != null){
+>     description.appendText(wanted.toString());  
+> }

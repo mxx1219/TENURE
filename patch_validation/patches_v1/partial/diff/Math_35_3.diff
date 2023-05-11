@@ -1,0 +1,4 @@
+3c3
+<   this.elitismRate=elitismRate;
+---
+>  setElitismRate ( elitismRate ) ;

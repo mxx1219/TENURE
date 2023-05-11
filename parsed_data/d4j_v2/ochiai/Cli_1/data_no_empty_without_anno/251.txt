@@ -1,0 +1,3 @@
+public String getValue(){
+  return hasNoValues() ? null : (String)this.values.get(0);
+}

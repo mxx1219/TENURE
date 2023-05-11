@@ -1,0 +1,3 @@
+public LegendItemCollection(){
+ rank2fixstart   this.items=new java.util.ArrayList(); rank2fixend 
+}

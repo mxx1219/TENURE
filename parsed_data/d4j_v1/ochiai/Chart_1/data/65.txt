@@ -1,0 +1,4 @@
+public void setSelectionState(CategoryDatasetSelectionState state){
+  this.selectionState=state;
+ rank2fixstart   fireDatasetChanged(new DatasetChangeInfo()); rank2fixend 
+}

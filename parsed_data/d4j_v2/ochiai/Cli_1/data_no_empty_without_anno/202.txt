@@ -1,0 +1,4 @@
+public static OptionBuilder isRequired(){
+  OptionBuilder.required=true;
+  return instance;
+}

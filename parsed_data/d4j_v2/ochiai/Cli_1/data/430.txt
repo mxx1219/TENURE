@@ -1,0 +1,3 @@
+public String getOptionValue(char opt,String defaultValue){
+ rank2fixstart   return getOptionValue(String.valueOf(opt),defaultValue); rank2fixend 
+}

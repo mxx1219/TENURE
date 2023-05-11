@@ -1,0 +1,3 @@
+ rank2fixstart public void setType(ChartChangeEventType type){ rank2fixend 
+  this.type=type;
+}

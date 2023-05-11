@@ -1,0 +1,8 @@
+protected int indexOf(Object object){
+  for (int index=0; index < this.size; index++) {
+    if (this.objects[index] == object) {
+ rank2fixstart       return (index); rank2fixend 
+    }
+  }
+  return -1;
+}

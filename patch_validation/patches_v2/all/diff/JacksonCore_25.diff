@@ -1,0 +1,4 @@
+14c14
+<     if (i <= maxCode) {
+---
+>  if ( i < maxCode ) { 

@@ -1,0 +1,7 @@
+INFO:root:2023-02-16 22:04:43 --> Current Version: Closure_40
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.NameAnalyzer@635
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 22:07:02 --> Closure_40: (2) MutateLiteralExpr1 rank2fixsplit false rank2fixsplit true
+INFO:root:Successful

@@ -1,0 +1,6 @@
+15c15,17
+<   typeAdapter=typeAdapter.nullSafe();
+---
+> if (typeAdapter != null){
+>     typeAdapter=typeAdapter.nullSafe();  
+> }

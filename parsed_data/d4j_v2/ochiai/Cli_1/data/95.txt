@@ -1,0 +1,4 @@
+public String getOptionValue(String opt){
+  String[] values=getOptionValues(opt);
+ rank2fixstart   return (values == null) ? null : values[0]; rank2fixend 
+}

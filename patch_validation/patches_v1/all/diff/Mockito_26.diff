@@ -1,0 +1,4 @@
+9c9
+<   primitiveValues.put(double.class,0);
+---
+>  primitiveValues . put ( double . class , 0.0 ) ; 

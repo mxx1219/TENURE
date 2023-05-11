@@ -1,0 +1,4 @@
+2c2
+<   return solve(min,max);
+---
+>  return solve ( f , min , max ) ; 

@@ -1,0 +1,3 @@
+public UnrecognizedOptionException(String message){
+  super(message);
+}

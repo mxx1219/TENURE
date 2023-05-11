@@ -1,0 +1,3 @@
+ rank2fixstart protected AbstractObjectList(){ rank2fixend 
+  this(DEFAULT_INITIAL_CAPACITY);
+}

@@ -1,0 +1,10 @@
+INFO:root:2023-02-16 20:15:32 --> Current Version: Closure_70
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.TypedScopeCreator@1744
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:15:47 --> Closure_70: (1) MutateMethodInvExpr3 rank2fixsplit true
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:17:50 --> Closure_70: (2) MutateLiteralExpr1 rank2fixsplit true rank2fixsplit false
+INFO:root:Successful

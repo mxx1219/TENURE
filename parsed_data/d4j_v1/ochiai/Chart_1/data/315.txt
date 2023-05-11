@@ -1,0 +1,3 @@
+public Plot getParent(){
+ rank2fixstart   return this.parent; rank2fixend 
+}

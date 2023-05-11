@@ -1,0 +1,3 @@
+public List getRequiredOptions(){
+ rank2fixstart   return requiredOpts; rank2fixend 
+}

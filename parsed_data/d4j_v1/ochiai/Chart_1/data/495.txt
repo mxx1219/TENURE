@@ -1,0 +1,3 @@
+ rank2fixstart public ItemLabelPosition(ItemLabelAnchor itemLabelAnchor,TextAnchor textAnchor){ rank2fixend 
+  this(itemLabelAnchor,textAnchor,TextAnchor.CENTER,0.0);
+}

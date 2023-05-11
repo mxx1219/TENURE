@@ -1,0 +1,13 @@
+public Options addOptionGroup(OptionGroup group){
+  Iterator options=group.getOptions().iterator();
+  if (group.isRequired()) {
+    requiredOpts.add(group);
+  }
+  while (options.hasNext()) {
+    Option option=(Option)options.next();
+    option.setRequired(false);
+ rank2fixstart     addOption(option); rank2fixend 
+    optionGroups.put(option.getKey(),group);
+  }
+  return this;
+}

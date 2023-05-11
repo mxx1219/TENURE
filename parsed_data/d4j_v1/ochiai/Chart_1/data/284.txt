@@ -1,0 +1,8 @@
+protected void notifyListeners(DatasetChangeEvent event){
+  Object[] listeners=this.listenerList.getListenerList();
+ rank2fixstart   for (int i=listeners.length - 2; i >= 0; i-=2) { rank2fixend 
+    if (listeners[i] == DatasetChangeListener.class) {
+      ((DatasetChangeListener)listeners[i + 1]).datasetChanged(event);
+    }
+  }
+}

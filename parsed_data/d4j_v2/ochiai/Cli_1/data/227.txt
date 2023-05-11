@@ -1,0 +1,4 @@
+public static OptionBuilder hasArgs(){
+  OptionBuilder.numberOfArgs=Option.UNLIMITED_VALUES;
+ rank2fixstart   return instance; rank2fixend 
+}

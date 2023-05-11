@@ -1,0 +1,3 @@
+public boolean hasValueSeparator(){
+ rank2fixstart   return (this.valuesep > 0); rank2fixend 
+}

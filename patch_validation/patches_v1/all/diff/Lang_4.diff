@@ -1,0 +1,4 @@
+7c7
+<       this.lookupMap.put(seq[0],seq[1]);
+---
+>  this . lookupMap . put ( seq [ 0 ] . toString ( ) , seq [ 1 ] ) ; 

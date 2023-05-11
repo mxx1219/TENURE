@@ -1,0 +1,3 @@
+ rank2fixstart public void setArgName(String argName){ rank2fixend 
+  this.argName=argName;
+}

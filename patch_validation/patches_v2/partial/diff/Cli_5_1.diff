@@ -1,0 +1,5 @@
+2c2,3
+<   if (str.startsWith("--")) {
+---
+> if (str == null) return "";
+>     if (str.startsWith("--")) {  

@@ -1,0 +1,5 @@
+ rank2fixstart public ChartChangeEvent(Object source,JFreeChart chart,ChartChangeEventType type){ rank2fixend 
+  super(source);
+  this.chart=chart;
+  this.type=type;
+}

@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:01:06 --> Current Version: Lang_7
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.lang3.math.NumberUtils@452
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:01:45 --> Lang_7: (1) RemoveBuggyStmt
+INFO:root:Successful

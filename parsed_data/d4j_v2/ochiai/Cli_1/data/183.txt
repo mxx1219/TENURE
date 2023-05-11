@@ -1,0 +1,3 @@
+public OptionGroup getOptionGroup(Option opt){
+ rank2fixstart   return (OptionGroup)optionGroups.get(opt.getKey()); rank2fixend 
+}

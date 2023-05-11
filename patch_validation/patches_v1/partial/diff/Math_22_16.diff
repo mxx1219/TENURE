@@ -1,0 +1,4 @@
+2c2
+<   return true;
+---
+>  if ( ! isSupportUpperBoundInclusive ( ) ) { return false ; } return true ;

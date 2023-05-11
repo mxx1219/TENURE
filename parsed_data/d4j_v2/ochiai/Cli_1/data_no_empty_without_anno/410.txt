@@ -1,0 +1,3 @@
+public String[] getOptionValues(char opt){
+  return getOptionValues(String.valueOf(opt));
+}

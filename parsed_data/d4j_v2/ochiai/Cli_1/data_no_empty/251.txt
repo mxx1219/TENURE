@@ -1,0 +1,3 @@
+public String getValue(){
+ rank2fixstart   return hasNoValues() ? null : (String)this.values.get(0); rank2fixend 
+}

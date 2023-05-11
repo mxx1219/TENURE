@@ -1,0 +1,3 @@
+public int indexOf(Object object){
+ rank2fixstart   return super.indexOf(object); rank2fixend 
+}

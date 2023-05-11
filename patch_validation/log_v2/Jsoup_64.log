@@ -1,0 +1,17 @@
+INFO:root:2023-02-16 18:28:22 --> Current Version: Jsoup_64
+INFO:root:defects4j compile ...
+INFO:root:========== org.jsoup.parser.HtmlTreeBuilderState@1489
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:28:28 --> Jsoup_64: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:28:29 --> Jsoup_64: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:28:34 --> Jsoup_64: (2) InsertNullPointerChecker1 rank2fixsplit startTag
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:28:44 --> Jsoup_64: (3) MoveStmt rank2fixsplit 1
+INFO:root:Successful

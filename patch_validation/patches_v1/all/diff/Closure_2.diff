@@ -1,0 +1,5 @@
+4c4,5
+<   currentPropertyNames=implicitProto.getOwnPropertyNames();
+---
+> if (implicitProto == null) return ;
+>     currentPropertyNames=implicitProto.getOwnPropertyNames();  

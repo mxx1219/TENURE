@@ -1,0 +1,3 @@
+ rank2fixstart public void addObject(Object object,Comparable rowKey,Comparable columnKey){ rank2fixend 
+  setObject(object,rowKey,columnKey);
+}

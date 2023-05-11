@@ -1,0 +1,4 @@
+public PlotChangeEvent(Plot plot){
+  super(plot);
+ rank2fixstart   this.plot=plot; rank2fixend 
+}

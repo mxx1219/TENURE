@@ -1,0 +1,3 @@
+public int getIndexOf(CategoryItemRenderer renderer){
+ rank2fixstart   return this.renderers.indexOf(renderer); rank2fixend 
+}

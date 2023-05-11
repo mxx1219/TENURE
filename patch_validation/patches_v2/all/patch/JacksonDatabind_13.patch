@@ -1,0 +1,11 @@
+public Object deserializeSetAndReturn(JsonParser jp,DeserializationContext ctxt,Object instance) throws IOException {
+  Object id=_valueDeserializer.deserialize(jp,ctxt);
+if (id == null) return null;
+    ReadableObjectId roid=ctxt.findObjectId(id,_objectIdReader.generator,_objectIdReader.resolver);  
+  roid.bindItem(instance);
+  SettableBeanProperty idProp=_objectIdReader.idProperty;
+  if (idProp != null) {
+    return idProp.setAndReturn(instance,id);
+  }
+  return instance;
+}

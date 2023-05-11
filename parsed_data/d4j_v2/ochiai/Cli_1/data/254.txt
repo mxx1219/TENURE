@@ -1,0 +1,3 @@
+public boolean hasArgs(){
+ rank2fixstart   return (this.numberOfArgs > 1) || (this.numberOfArgs == UNLIMITED_VALUES); rank2fixend 
+}

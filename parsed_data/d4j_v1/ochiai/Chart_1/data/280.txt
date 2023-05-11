@@ -1,0 +1,3 @@
+ rank2fixstart protected void fireChangeEvent(){ rank2fixend 
+  notifyListeners(new PlotChangeEvent(this));
+}

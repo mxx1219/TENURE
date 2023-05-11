@@ -1,0 +1,3 @@
+public void setOptionalArg(boolean optionalArg){
+  this.optionalArg=optionalArg;
+}

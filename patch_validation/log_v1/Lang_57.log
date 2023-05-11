@@ -1,0 +1,23 @@
+INFO:root:2023-02-16 20:01:02 --> Current Version: Lang_57
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.lang.LocaleUtils@223
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:13 --> Lang_57: (1) InsertNullPointerChecker2 rank2fixsplit locale rank2fixsplit false
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:19 --> Lang_57: (2) MutateReturnStmt rank2fixsplit cAvailableLocaleSet . contains ( locale ) rank2fixsplit ! <unk> . contains ( locale )
+INFO:root:Failed
+INFO:root:True, True, False
+INFO:root:2023-02-16 20:01:40 --> Lang_57: (2) MutateReturnStmt rank2fixsplit cAvailableLocaleSet . contains ( locale ) rank2fixsplit ! <unk> . contains ( locale )
+INFO:root:Fix at least one test case.
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:48 --> Lang_57: (4) MutateReturnStmt rank2fixsplit <unk> . contains ( locale ) rank2fixsplit ! cAvailableLocaleSet . contains ( locale )
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:02:12 --> Lang_57: (6) MutateReturnStmt rank2fixsplit cAvailableLocaleSet . contains ( locale ) rank2fixsplit <unk> . contains ( locale )
+INFO:root:Successful

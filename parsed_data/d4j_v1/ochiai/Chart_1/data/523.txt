@@ -1,0 +1,47 @@
+public AbstractRenderer(){
+  this.seriesVisibleList=new BooleanList();
+  this.baseSeriesVisible=true;
+  this.seriesVisibleInLegendList=new BooleanList();
+  this.baseSeriesVisibleInLegend=true;
+  this.paintList=new PaintList();
+  this.basePaint=DEFAULT_PAINT;
+  this.autoPopulateSeriesPaint=true;
+  this.fillPaintList=new PaintList();
+  this.baseFillPaint=Color.white;
+  this.autoPopulateSeriesFillPaint=false;
+  this.outlinePaintList=new PaintList();
+  this.baseOutlinePaint=DEFAULT_OUTLINE_PAINT;
+  this.autoPopulateSeriesOutlinePaint=false;
+  this.strokeList=new StrokeList();
+  this.baseStroke=DEFAULT_STROKE;
+ rank2fixstart   this.autoPopulateSeriesStroke=true; rank2fixend 
+  this.outlineStrokeList=new StrokeList();
+  this.baseOutlineStroke=DEFAULT_OUTLINE_STROKE;
+  this.autoPopulateSeriesOutlineStroke=false;
+  this.shapeList=new ShapeList();
+  this.baseShape=DEFAULT_SHAPE;
+  this.autoPopulateSeriesShape=true;
+  this.itemLabelsVisibleList=new BooleanList();
+  this.baseItemLabelsVisible=false;
+  this.itemLabelFontList=new ObjectList();
+  this.baseItemLabelFont=new Font("Tahoma",Font.PLAIN,10);
+  this.itemLabelPaintList=new PaintList();
+  this.baseItemLabelPaint=Color.black;
+  this.positiveItemLabelPositionList=new ObjectList();
+  this.basePositiveItemLabelPosition=new ItemLabelPosition(ItemLabelAnchor.OUTSIDE12,TextAnchor.BOTTOM_CENTER);
+  this.negativeItemLabelPositionList=new ObjectList();
+  this.baseNegativeItemLabelPosition=new ItemLabelPosition(ItemLabelAnchor.OUTSIDE6,TextAnchor.TOP_CENTER);
+  this.createEntitiesList=new BooleanList();
+  this.baseCreateEntities=true;
+  this.defaultEntityRadius=3;
+  this.legendShapeList=new ShapeList();
+  this.baseLegendShape=null;
+  this.treatLegendShapeAsLine=false;
+  this.legendTextFont=new ObjectList();
+  this.baseLegendTextFont=null;
+  this.legendTextPaint=new PaintList();
+  this.baseLegendTextPaint=null;
+  this.listenerList=new EventListenerList();
+  this.selectedItemAttributes=new RenderAttributes();
+  this.selectedItemAttributes.setDefaultFillPaint(Color.WHITE);
+}

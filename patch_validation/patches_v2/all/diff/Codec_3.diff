@@ -1,0 +1,4 @@
+33c33
+<  else     if (contains(value,index + 1,4,"IER")) {
+---
+>  else if ( contains ( value , index + 1 , 3 , "IER" ) ) { 

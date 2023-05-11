@@ -1,0 +1,4 @@
+2c2
+<   return true;
+---
+>  numericalVarianceIsCalculated = false ; return false ;

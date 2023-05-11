@@ -1,0 +1,4 @@
+2c2
+<   return StringUtils.newStringUtf8(encodeBase64(binaryData,true));
+---
+>  return StringUtils . newStringUtf8 ( encodeBase64 ( binaryData , false ) ) ; 

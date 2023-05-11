@@ -1,0 +1,4 @@
+8c8
+<   TimeSeries copy=(TimeSeries)super.clone();
+---
+>  TimeSeries copy = new TimeSeries ( start ) ;

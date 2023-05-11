@@ -1,0 +1,9 @@
+INFO:root:2023-02-16 20:28:38 --> Current Version: Closure_11
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.TypeCheck@1314
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:28:59 --> Closure_11: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:31:37 --> Closure_11: (1) RemoveBuggyStmt
+INFO:root:Successful

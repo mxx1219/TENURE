@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 22:08:23 --> Current Version: Lang_21
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.lang3.time.DateUtils@262
+INFO:root:True, True, True
+INFO:root:2023-02-16 22:08:44 --> Lang_21: (1) MutateVariable1 rank2fixsplit HOUR rank2fixsplit HOUR_OF_DAY
+INFO:root:Successful

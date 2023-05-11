@@ -1,0 +1,51 @@
+public CommandLine parse(Options options,String[] arguments,Properties properties,boolean stopAtNonOption) throws ParseException {
+  this.options=options;
+  requiredOptions=options.getRequiredOptions();
+  cmd=new CommandLine();
+ rank2fixstart   boolean eatTheRest=false; rank2fixend 
+  if (arguments == null) {
+    arguments=new String[0];
+  }
+  List tokenList=Arrays.asList(flatten(this.options,arguments,stopAtNonOption));
+  ListIterator iterator=tokenList.listIterator();
+  while (iterator.hasNext()) {
+    String t=(String)iterator.next();
+    if ("--".equals(t)) {
+      eatTheRest=true;
+    }
+ else     if ("-".equals(t)) {
+      if (stopAtNonOption) {
+        eatTheRest=true;
+      }
+ else {
+        cmd.addArg(t);
+      }
+    }
+ else     if (t.startsWith("-")) {
+      if (stopAtNonOption && !options.hasOption(t)) {
+        eatTheRest=true;
+        cmd.addArg(t);
+      }
+ else {
+        processOption(t,iterator);
+      }
+    }
+ else {
+      cmd.addArg(t);
+      if (stopAtNonOption) {
+        eatTheRest=true;
+      }
+    }
+    if (eatTheRest) {
+      while (iterator.hasNext()) {
+        String str=(String)iterator.next();
+        if (!"--".equals(str)) {
+          cmd.addArg(str);
+        }
+      }
+    }
+  }
+  processProperties(properties);
+  checkRequiredOptions();
+  return cmd;
+}

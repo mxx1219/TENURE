@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:00:15 --> Current Version: Time_19
+INFO:root:defects4j compile ...
+INFO:root:========== org.joda.time.DateTimeZone@900
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:00:49 --> Time_19: (1) MutateOperators1 rank2fixsplit > rank2fixsplit >=
+INFO:root:Successful

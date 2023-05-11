@@ -1,0 +1,11 @@
+void addOption(Option opt){
+  hashcodeMap.put(new Integer(opt.hashCode()),opt);
+  String key=opt.getKey();
+ rank2fixstart   if (key == null) { rank2fixend 
+    key=opt.getLongOpt();
+  }
+ else {
+    names.put(opt.getLongOpt(),key);
+  }
+  options.put(key,opt);
+}

@@ -1,0 +1,4 @@
+public static OptionBuilder withLongOpt(String newLongopt){
+ rank2fixstart   OptionBuilder.longopt=newLongopt; rank2fixend 
+  return instance;
+}

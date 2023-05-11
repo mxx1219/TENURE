@@ -1,0 +1,4 @@
+14c14
+<   if (flags.process_closure_primitives) {
+---
+>  options . closurePass = false ; if ( flags . process_closure_primitives ) {

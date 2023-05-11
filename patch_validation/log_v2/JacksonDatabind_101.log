@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 18:14:32 --> Current Version: JacksonDatabind_101
+INFO:root:defects4j compile ...
+INFO:root:========== com.fasterxml.jackson.databind.deser.BeanDeserializer@771
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:17:35 --> JacksonDatabind_101: (1) RemoveBuggyStmt
+INFO:root:Successful

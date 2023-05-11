@@ -1,0 +1,15 @@
+private void processValue(String value){
+  if (hasValueSeparator()) {
+    char sep=getValueSeparator();
+    int index=value.indexOf(sep);
+    while (index != -1) {
+ rank2fixstart       if (values.size() == (numberOfArgs - 1)) { rank2fixend 
+        break;
+      }
+      add(value.substring(0,index));
+      value=value.substring(index + 1);
+      index=value.indexOf(sep);
+    }
+  }
+  add(value);
+}

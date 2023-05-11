@@ -1,0 +1,3 @@
+public Collection getOptions(){
+ rank2fixstart   return Collections.unmodifiableCollection(helpOptions()); rank2fixend 
+}

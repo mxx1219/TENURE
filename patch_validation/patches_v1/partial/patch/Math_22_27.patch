@@ -1,0 +1,3 @@
+public boolean isSupportLowerBoundInclusive(){
+ synchronized ( this ) { return false ; }
+}

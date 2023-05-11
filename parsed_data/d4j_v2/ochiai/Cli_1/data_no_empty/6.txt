@@ -1,0 +1,3 @@
+public String getDescription(){
+ rank2fixstart   return this.description; rank2fixend 
+}

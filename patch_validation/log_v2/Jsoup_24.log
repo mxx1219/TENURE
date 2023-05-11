@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 18:13:02 --> Current Version: Jsoup_24
+INFO:root:defects4j compile ...
+INFO:root:========== org.jsoup.parser.TokeniserState@558
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:13:14 --> Jsoup_24: (1) RemoveBuggyStmt
+INFO:root:Successful

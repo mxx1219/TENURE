@@ -1,0 +1,3 @@
+ rank2fixstart public ParseException(String message){ rank2fixend 
+  super(message);
+}

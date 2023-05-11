@@ -1,0 +1,4 @@
+public static OptionBuilder withType(Object newType){
+ rank2fixstart   OptionBuilder.type=newType; rank2fixend 
+  return instance;
+}

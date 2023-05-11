@@ -1,0 +1,24 @@
+INFO:root:2023-02-16 20:40:44 --> Current Version: Math_52
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.math.geometry.euclidean.threed.Rotation@344
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:40:56 --> Math_52: (1) MutateLiteralExpr1 rank2fixsplit 0 rank2fixsplit 1
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:40:57 --> Math_52: (1) MutateLiteralExpr1 rank2fixsplit 0 rank2fixsplit 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:42:05 --> Math_52: (2) MutateOperators1 rank2fixsplit == rank2fixsplit !=
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:42:10 --> Math_52: (3) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:42:12 --> Math_52: (3) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:43:19 --> Math_52: (4) MutateOperators1 rank2fixsplit == rank2fixsplit <=
+INFO:root:Successful

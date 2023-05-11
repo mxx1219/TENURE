@@ -1,0 +1,3 @@
+ rank2fixstart public void setArgs(int num){ rank2fixend 
+  this.numberOfArgs=num;
+}

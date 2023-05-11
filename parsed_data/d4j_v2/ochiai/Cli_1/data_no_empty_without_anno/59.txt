@@ -1,0 +1,6 @@
+String getKey(){
+  if (opt == null) {
+    return this.longOpt;
+  }
+  return this.opt;
+}

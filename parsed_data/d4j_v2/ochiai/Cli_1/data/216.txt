@@ -1,0 +1,4 @@
+public static OptionBuilder hasArg(boolean hasArg){
+ rank2fixstart   OptionBuilder.numberOfArgs=(hasArg == true) ? 1 : Option.UNINITIALIZED; rank2fixend 
+  return instance;
+}

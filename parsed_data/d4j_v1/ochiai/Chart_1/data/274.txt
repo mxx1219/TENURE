@@ -1,0 +1,3 @@
+public void addChangeListener(DatasetChangeListener listener){
+ rank2fixstart   this.listenerList.add(DatasetChangeListener.class,listener); rank2fixend 
+}

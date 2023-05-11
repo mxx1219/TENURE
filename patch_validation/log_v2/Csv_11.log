@@ -1,0 +1,37 @@
+INFO:root:2023-02-16 19:03:53 --> Current Version: Csv_11
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.csv.CSVParser@384
+INFO:root:False, False, False
+INFO:root:2023-02-16 19:03:57 --> Csv_11: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 19:03:58 --> Csv_11: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 19:04:02 --> Csv_11: (2) MutateConditionalExpr3 rank2fixsplit header . trim ( ) . isEmpty ( ) rank2fixsplit && rank2fixsplit header != null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 19:04:05 --> Csv_11: (3) InsertNullPointerChecker1 rank2fixsplit header
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 19:04:08 --> Csv_11: (4) MoveStmt rank2fixsplit 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 19:04:13 --> Csv_11: (6) MutateVariable1 rank2fixsplit header rank2fixsplit header
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 19:04:20 --> Csv_11: (9) MutateVariable2 rank2fixsplit header rank2fixsplit header . trim ( )
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 19:04:29 --> Csv_11: (11) InsertNullPointerChecker4 rank2fixsplit header
+INFO:root:Successful

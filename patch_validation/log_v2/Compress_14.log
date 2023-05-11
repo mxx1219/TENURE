@@ -1,0 +1,27 @@
+INFO:root:2023-02-16 18:26:50 --> Current Version: Compress_14
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.compress.archivers.tar.TarUtils@72
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:26:55 --> Compress_14: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:26:56 --> Compress_14: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:26:59 --> Compress_14: (2) MoveStmt rank2fixsplit 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:27:02 --> Compress_14: (3) MoveStmt rank2fixsplit 3
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:27:07 --> Compress_14: (5) MoveStmt rank2fixsplit 2
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:27:17 --> Compress_14: (7) MoveStmt rank2fixsplit - 1
+INFO:root:Successful

@@ -1,0 +1,5 @@
+public static OptionBuilder hasOptionalArg(){
+ rank2fixstart   OptionBuilder.numberOfArgs=1; rank2fixend 
+  OptionBuilder.optionalArg=true;
+  return instance;
+}

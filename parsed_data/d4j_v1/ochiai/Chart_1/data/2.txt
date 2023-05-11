@@ -1,0 +1,3 @@
+public void setRenderer(CategoryItemRenderer renderer){
+ rank2fixstart   setRenderer(0,renderer,true); rank2fixend 
+}

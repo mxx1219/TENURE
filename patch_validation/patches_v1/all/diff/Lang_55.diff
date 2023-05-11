@@ -1,0 +1,6 @@
+5c5,7
+<   stopTime=System.currentTimeMillis();
+---
+> if (this . runningState != STATE_SUSPENDED){
+>     stopTime=System.currentTimeMillis();  
+> }

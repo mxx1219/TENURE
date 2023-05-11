@@ -1,0 +1,3 @@
+public boolean isSupportLowerBoundInclusive(){
+ return DEFAULT_INVERSE_ABSOLUTE_ACCURACY == 0 ; 
+}

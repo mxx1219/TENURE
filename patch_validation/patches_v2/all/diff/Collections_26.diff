@@ -1,0 +1,4 @@
+1c1
+< private Object readResolve(){
+---
+>  protected Object readResolve ( ) {

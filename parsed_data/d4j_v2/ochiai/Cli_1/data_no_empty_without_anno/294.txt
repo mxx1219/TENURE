@@ -1,0 +1,3 @@
+Collection getOptionGroups(){
+  return new HashSet(optionGroups.values());
+}

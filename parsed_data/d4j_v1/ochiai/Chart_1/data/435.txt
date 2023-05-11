@@ -1,0 +1,3 @@
+public StandardCategorySeriesLabelGenerator(){
+ rank2fixstart   this(DEFAULT_LABEL_FORMAT); rank2fixend 
+}

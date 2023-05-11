@@ -1,0 +1,3 @@
+public static Option create(char opt) throws IllegalArgumentException {
+  return create(String.valueOf(opt));
+}

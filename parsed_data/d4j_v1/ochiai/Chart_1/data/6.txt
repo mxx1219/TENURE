@@ -1,0 +1,16 @@
+public void setRenderer(int index,CategoryItemRenderer renderer,boolean notify){
+  CategoryItemRenderer existing=(CategoryItemRenderer)this.renderers.get(index);
+  if (existing != null) {
+    existing.removeChangeListener(this);
+  }
+ rank2fixstart   this.renderers.set(index,renderer); rank2fixend 
+  if (renderer != null) {
+    renderer.setPlot(this);
+    renderer.addChangeListener(this);
+  }
+  configureDomainAxes();
+  configureRangeAxes();
+  if (notify) {
+    fireChangeEvent();
+  }
+}

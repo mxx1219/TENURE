@@ -1,0 +1,44 @@
+INFO:root:2023-02-16 20:34:36 --> Current Version: Time_7
+INFO:root:defects4j compile ...
+INFO:root:========== org.joda.time.format.DateTimeFormatter@710
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:34:51 --> Time_7: (1) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:34:52 --> Time_7: (1) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:34:53 --> Time_7: (1) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:35:19 --> Time_7: (5) MutateMethodInvExpr1 rank2fixsplit year rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:35:21 --> Time_7: (5) MutateMethodInvExpr1 rank2fixsplit year rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:35:29 --> Time_7: (6) MutateMethodInvExpr1 rank2fixsplit year rank2fixsplit year
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:35:35 --> Time_7: (7) MutateDataType1 rank2fixsplit int rank2fixsplit long
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:35:44 --> Time_7: (8) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:35:45 --> Time_7: (8) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:36:14 --> Time_7: (12) MutateVariable1 rank2fixsplit instantLocal rank2fixsplit <unk>
+INFO:root:Successful

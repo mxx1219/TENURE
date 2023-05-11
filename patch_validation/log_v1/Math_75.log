@@ -1,0 +1,20 @@
+INFO:root:2023-02-16 22:09:02 --> Current Version: Math_75
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.math.stat.Frequency@303
+INFO:root:True, False, False
+INFO:root:2023-02-16 22:09:11 --> Math_75: (1) MutateMethodInvExpr2 rank2fixsplit ( Comparable < ? > ) v rank2fixsplit v
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 22:09:14 --> Math_75: (2) MutateDataType2 rank2fixsplit Comparable < ? > rank2fixsplit Comparable
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 22:09:17 --> Math_75: (3) MutateVariable1 rank2fixsplit v rank2fixsplit v
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 22:09:40 --> Math_75: (6) MutateMethodInvExpr1 rank2fixsplit getCumPct rank2fixsplit <unk>
+INFO:root:Successful

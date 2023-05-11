@@ -1,0 +1,6 @@
+String getKey(){
+  if (opt == null) {
+ rank2fixstart     return this.longOpt; rank2fixend 
+  }
+  return this.opt;
+}

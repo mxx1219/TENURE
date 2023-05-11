@@ -1,0 +1,5 @@
+public void mapDatasetToDomainAxis(int index,int axisIndex){
+ rank2fixstart   List axisIndices=new java.util.ArrayList(1); rank2fixend 
+  axisIndices.add(new Integer(axisIndex));
+  mapDatasetToDomainAxes(index,axisIndices);
+}

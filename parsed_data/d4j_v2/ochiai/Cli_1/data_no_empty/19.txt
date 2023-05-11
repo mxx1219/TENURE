@@ -1,0 +1,10 @@
+private static void reset(){
+  description=null;
+ rank2fixstart   argName="arg"; rank2fixend 
+  longopt=null;
+  type=null;
+  required=false;
+  numberOfArgs=Option.UNINITIALIZED;
+  optionalArg=false;
+  valuesep=(char)0;
+}

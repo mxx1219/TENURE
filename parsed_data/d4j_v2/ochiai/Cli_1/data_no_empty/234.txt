@@ -1,0 +1,3 @@
+public boolean hasOptionalArg(){
+ rank2fixstart   return this.optionalArg; rank2fixend 
+}

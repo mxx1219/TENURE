@@ -1,0 +1,4 @@
+19c19
+<   if (result != null) {
+---
+>  if ( ! result . isNoType ( ) ) { 

@@ -1,0 +1,6 @@
+public void addChangeListener(RendererChangeListener listener){
+ rank2fixstart   if (listener == null) { rank2fixend 
+    throw new IllegalArgumentException("Null 'listener' argument.");
+  }
+  this.listenerList.add(RendererChangeListener.class,listener);
+}

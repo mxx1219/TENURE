@@ -1,0 +1,9 @@
+static String stripLeadingHyphens(String str){
+ rank2fixstart   if (str.startsWith("--")) { rank2fixend 
+    return str.substring(2,str.length());
+  }
+ else   if (str.startsWith("-")) {
+    return str.substring(1,str.length());
+  }
+  return str;
+}

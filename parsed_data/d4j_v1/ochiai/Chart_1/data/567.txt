@@ -1,0 +1,6 @@
+public void setDefaultFillPaint(Paint paint){
+ rank2fixstart   if (paint == null && !this.allowNull) { rank2fixend 
+    throw new IllegalArgumentException("Null 'paint' argument.");
+  }
+  this.defaultFillPaint=paint;
+}

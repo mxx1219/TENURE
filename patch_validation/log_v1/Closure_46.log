@@ -1,0 +1,9 @@
+INFO:root:2023-02-16 20:00:06 --> Current Version: Closure_46
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.rhino.jstype.RecordType@142
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:24 --> Closure_46: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:02:29 --> Closure_46: (1) RemoveBuggyStmt
+INFO:root:Successful

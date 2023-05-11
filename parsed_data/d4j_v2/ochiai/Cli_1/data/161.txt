@@ -1,0 +1,10 @@
+ rank2fixstart private void checkRequiredOptions() throws MissingOptionException { rank2fixend 
+  if (requiredOptions.size() > 0) {
+    Iterator iter=requiredOptions.iterator();
+    StringBuffer buff=new StringBuffer();
+    while (iter.hasNext()) {
+      buff.append(iter.next());
+    }
+    throw new MissingOptionException(buff.toString());
+  }
+}

@@ -1,0 +1,4 @@
+public String getValue(String defaultValue){
+ rank2fixstart   String value=getValue(); rank2fixend 
+  return (value != null) ? value : defaultValue;
+}

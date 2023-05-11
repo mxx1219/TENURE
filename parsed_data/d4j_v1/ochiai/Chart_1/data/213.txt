@@ -1,0 +1,9 @@
+public void mapDatasetToRangeAxes(int index,List axisIndices){
+  if (index < 0) {
+    throw new IllegalArgumentException("Requires 'index' >= 0.");
+  }
+  checkAxisIndices(axisIndices);
+  Integer key=new Integer(index);
+ rank2fixstart   this.datasetToRangeAxesMap.put(key,new ArrayList(axisIndices)); rank2fixend 
+  datasetChanged(new DatasetChangeEvent(this,getDataset(index),new DatasetChangeInfo()));
+}

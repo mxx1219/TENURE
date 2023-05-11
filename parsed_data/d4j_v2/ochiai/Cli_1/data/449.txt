@@ -1,0 +1,3 @@
+ rank2fixstart public MissingOptionException(String message){ rank2fixend 
+  super(message);
+}

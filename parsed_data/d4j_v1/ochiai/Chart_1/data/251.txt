@@ -1,0 +1,15 @@
+public int getIndex(Comparable key){
+  if (key == null) {
+    throw new IllegalArgumentException("Null 'key' argument.");
+  }
+ rank2fixstart   int i=0; rank2fixend 
+  Iterator iterator=this.data.iterator();
+  while (iterator.hasNext()) {
+    KeyedObject ko=(KeyedObject)iterator.next();
+    if (ko.getKey().equals(key)) {
+      return i;
+    }
+    i++;
+  }
+  return -1;
+}

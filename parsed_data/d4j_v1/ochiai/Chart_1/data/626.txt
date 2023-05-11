@@ -1,0 +1,4 @@
+protected AbstractObjectList(int initialCapacity,int increment){
+  this.objects=new Object[initialCapacity];
+ rank2fixstart   this.increment=increment; rank2fixend 
+}

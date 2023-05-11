@@ -1,0 +1,3 @@
+ rank2fixstart public void setValueSeparator(char sep){ rank2fixend 
+  this.valuesep=sep;
+}

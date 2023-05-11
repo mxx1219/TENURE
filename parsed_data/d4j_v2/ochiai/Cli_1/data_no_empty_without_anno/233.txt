@@ -1,0 +1,3 @@
+public Object getType(){
+  return this.type;
+}

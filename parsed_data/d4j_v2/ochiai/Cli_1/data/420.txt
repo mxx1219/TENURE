@@ -1,0 +1,8 @@
+public Object getOptionObject(String opt){
+ rank2fixstart   String res=getOptionValue(opt); rank2fixend 
+  if (!options.containsKey(opt)) {
+    return null;
+  }
+  Object type=((Option)options.get(opt)).getType();
+  return (res == null) ? null : TypeHandler.createValue(res,type);
+}

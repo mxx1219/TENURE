@@ -1,0 +1,5 @@
+public Option[] getOptions(){
+  Collection processed=options.values();
+  Option[] optionsArray=new Option[processed.size()];
+  return (Option[])processed.toArray(optionsArray);
+}

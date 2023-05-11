@@ -1,0 +1,3 @@
+public boolean hasLongOpt(){
+  return (this.longOpt != null);
+}

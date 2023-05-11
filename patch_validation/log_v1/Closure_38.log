@@ -1,0 +1,13 @@
+INFO:root:2023-02-16 20:01:46 --> Current Version: Closure_38
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.CodeConsumer@245
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:02:05 --> Closure_38: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:02:07 --> Closure_38: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:04:24 --> Closure_38: (2) MutateOperators1 rank2fixsplit < rank2fixsplit <=
+INFO:root:Successful

@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 19:08:23 --> Current Version: JacksonCore_25
+INFO:root:defects4j compile ...
+INFO:root:========== com.fasterxml.jackson.core.json.ReaderBasedJsonParser@1963
+INFO:root:True, True, True
+INFO:root:2023-02-16 19:08:49 --> JacksonCore_25: (1) MutateOperators1 rank2fixsplit <= rank2fixsplit <
+INFO:root:Successful

@@ -1,0 +1,6 @@
+private void add(String value){
+ rank2fixstart   if ((numberOfArgs > 0) && (values.size() > (numberOfArgs - 1))) { rank2fixend 
+    throw new RuntimeException("Cannot add value, list full.");
+  }
+  this.values.add(value);
+}

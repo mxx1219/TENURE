@@ -1,0 +1,4 @@
+2c2
+<   return cAvailableLocaleSet.contains(locale);
+---
+>  return ! cAvailableLocaleList . contains ( locale ) ; 

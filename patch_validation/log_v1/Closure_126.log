@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:12:10 --> Current Version: Closure_126
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.MinimizeExitPoints@141
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:14:59 --> Closure_126: (1) RemoveBuggyStmt
+INFO:root:Successful

@@ -1,0 +1,4 @@
+12c12
+<       currEntry.setGroupId(Integer.parseInt(val));
+---
+>  currEntry . setGroupId ( Long . parseLong ( val ) ) ;

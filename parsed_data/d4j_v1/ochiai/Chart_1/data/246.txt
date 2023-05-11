@@ -1,0 +1,4 @@
+ rank2fixstart public KeyedObject(Comparable key,Object object){ rank2fixend 
+  this.key=key;
+  this.object=object;
+}

@@ -1,0 +1,3 @@
+public String[] getValues(){
+  return hasNoValues() ? null : (String[])this.values.toArray(new String[]{});
+}

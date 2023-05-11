@@ -1,0 +1,2 @@
+ rank2fixstart public BooleanList(){ rank2fixend 
+}

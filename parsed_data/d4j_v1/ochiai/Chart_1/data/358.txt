@@ -1,0 +1,8 @@
+public static final ResourceBundle getBundle(String baseName){
+ rank2fixstart   if (noCodeBaseClassLoader != null) { rank2fixend 
+    return ResourceBundle.getBundle(baseName,Locale.getDefault(),noCodeBaseClassLoader);
+  }
+ else {
+    return ResourceBundle.getBundle(baseName);
+  }
+}

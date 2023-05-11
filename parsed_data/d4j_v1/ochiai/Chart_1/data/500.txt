@@ -1,0 +1,15 @@
+public ItemLabelPosition(ItemLabelAnchor itemLabelAnchor,TextAnchor textAnchor,TextAnchor rotationAnchor,double angle){
+  if (itemLabelAnchor == null) {
+    throw new IllegalArgumentException("Null 'itemLabelAnchor' argument.");
+  }
+  if (textAnchor == null) {
+    throw new IllegalArgumentException("Null 'textAnchor' argument.");
+  }
+  if (rotationAnchor == null) {
+    throw new IllegalArgumentException("Null 'rotationAnchor' argument.");
+  }
+ rank2fixstart   this.itemLabelAnchor=itemLabelAnchor; rank2fixend 
+  this.textAnchor=textAnchor;
+  this.rotationAnchor=rotationAnchor;
+  this.angle=angle;
+}

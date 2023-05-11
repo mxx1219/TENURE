@@ -1,0 +1,17 @@
+public String toString(){
+  StringBuffer buf=new StringBuffer().append("[ option: ");
+  buf.append(this.opt);
+  if (this.longOpt != null) {
+    buf.append(" ").append(this.longOpt);
+  }
+  buf.append(" ");
+  if (hasArg) {
+    buf.append("+ARG");
+  }
+  buf.append(" :: ").append(this.description);
+ rank2fixstart   if (this.type != null) { rank2fixend 
+    buf.append(" :: ").append(this.type);
+  }
+  buf.append(" ]");
+  return buf.toString();
+}

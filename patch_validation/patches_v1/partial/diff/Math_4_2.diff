@@ -1,0 +1,5 @@
+5c5,6
+<   Location loc1=getRemainingRegion().checkPoint(line1.toSubSpace(v2D));
+---
+> if (v2D == null) return null;
+>     Location loc1=getRemainingRegion().checkPoint(line1.toSubSpace(v2D));  

@@ -1,0 +1,81 @@
+INFO:root:2023-02-16 20:00:18 --> Current Version: Closure_104
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.rhino.jstype.UnionType@291
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:26 --> Closure_104: (1) MutateConditionalExpr3 rank2fixsplit result != null rank2fixsplit && rank2fixsplit result != null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:00:29 --> Closure_104: (2) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:31 --> Closure_104: (2) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:34 --> Closure_104: (3) MutateOperators1 rank2fixsplit != rank2fixsplit ==
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:37 --> Closure_104: (4) MutateConditionalExpr3 rank2fixsplit result != null rank2fixsplit && rank2fixsplit that != null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:43 --> Closure_104: (6) MutateVariable1 rank2fixsplit result rank2fixsplit result
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:00:47 --> Closure_104: (7) MutateConditionalExpr3 rank2fixsplit result != null rank2fixsplit && rank2fixsplit result == null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:00:58 --> Closure_104: (12) InsertNullPointerChecker1 rank2fixsplit result
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:03 --> Closure_104: (13) MutateConditionalExpr3 rank2fixsplit result != null rank2fixsplit && rank2fixsplit <unk> != null
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:01:04 --> Closure_104: (13) MutateConditionalExpr3 rank2fixsplit result != null rank2fixsplit && rank2fixsplit <unk> != null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:01:08 --> Closure_104: (14) MoveStmt rank2fixsplit - 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:13 --> Closure_104: (15) MutateConditionalExpr3 rank2fixsplit result != null rank2fixsplit || rank2fixsplit result == null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:01:20 --> Closure_104: (18) MoveStmt rank2fixsplit - 2
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:25 --> Closure_104: (19) InsertNullPointerChecker2 rank2fixsplit result rank2fixsplit null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:28 --> Closure_104: (20) MutateConditionalExpr1 rank2fixsplit result != null rank2fixsplit result . <unk> ( )
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:30 --> Closure_104: (20) MutateConditionalExpr1 rank2fixsplit result != null rank2fixsplit result . <unk> ( )
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:31 --> Closure_104: (20) MutateConditionalExpr1 rank2fixsplit result != null rank2fixsplit result . <unk> ( )
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:01:37 --> Closure_104: (22) MutateConditionalExpr1 rank2fixsplit result != null rank2fixsplit ! result . <unk> ( )
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:02:39 --> Closure_104: (22) MutateConditionalExpr1 rank2fixsplit result != null rank2fixsplit ! result . <unk> ( )
+INFO:root:Successful

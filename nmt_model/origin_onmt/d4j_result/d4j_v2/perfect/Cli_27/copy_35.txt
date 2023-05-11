@@ -1,0 +1,300 @@
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit <unk>
+InsertMissedStmt3
+InsertNullPointerChecker1 rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+MoveStmt rank2fixsplit 1
+InsertMissedStmt1 rank2fixsplit <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( ) ;
+InsertNullPointerChecker2 rank2fixsplit option rank2fixsplit rank2fixempty
+MutateVariable1 rank2fixsplit option rank2fixsplit option
+InsertNullPointerChecker1 rank2fixsplit selected
+InsertMissedStmt1 rank2fixsplit option . <unk> ( option ) ;
+MutateVariable1 rank2fixsplit selected rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( ) ;
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit setSelected
+MoveStmt rank2fixsplit - 1
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( true ) ;
+InsertMissedStmt4 rank2fixsplit ! option . <unk> ( )
+InsertNullPointerChecker2 rank2fixsplit selected rank2fixsplit rank2fixempty
+RemoveBuggyStmt
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( false ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( this ) ;
+InsertMissedStmt1 rank2fixsplit selected . clear ( ) ;
+MoveStmt rank2fixsplit - 2
+InsertMissedStmt1 rank2fixsplit setSelected ( true ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit this
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( true ) ;
+InsertMissedStmt1 rank2fixsplit selected . close ( ) ;
+MutateVariable2 rank2fixsplit option rank2fixsplit this . option
+InsertMissedStmt1 rank2fixsplit setSelected ( option ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit setSelected ( false ) ;
+InsertMissedStmt1 rank2fixsplit setSelected ( ) ;
+InsertMissedStmt4 rank2fixsplit ! <unk> ( )
+MoveStmt rank2fixsplit 3
+InsertMissedStmt1 rank2fixsplit AlreadySelectedException ( ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( true ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( option , option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( this ) ;
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( this ) ;
+MutateVariable2 rank2fixsplit option rank2fixsplit option . <unk> ( )
+MoveStmt rank2fixsplit - 3
+InsertMissedStmt4 rank2fixsplit option . <unk> ( )
+InsertMissedStmt1 rank2fixsplit selected . cancel ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( this , option ) ;
+InsertMissedStmt1 rank2fixsplit option . clear ( ) ;
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( false ) ;
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( option ) ;
+MoveStmt rank2fixsplit - 4
+InsertMissedStmt1 rank2fixsplit option . <unk> ( "STRING" ) ;
+MoveStmt rank2fixsplit 2
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( null ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . setSelected ( true ) ;
+MutateConditionalExpr3 rank2fixsplit option . getOpt ( ) rank2fixsplit && rank2fixsplit <unk>
+InsertMissedStmt1 rank2fixsplit selected . reset ( ) ;
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( ) ;
+InsertMissedStmt4 rank2fixsplit ! selected . <unk> ( )
+InsertMissedStmt1 rank2fixsplit <unk> ( <unk> ) ;
+InsertMissedStmt1 rank2fixsplit System . out . println ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit setSelected ( option . <unk> ( ) ) ;
+MutateOperators1 rank2fixsplit = rank2fixsplit +=
+InsertMissedStmt1 rank2fixsplit <unk> ( option . <unk> ( ) ) ;
+InsertMissedStmt1 rank2fixsplit setSelected ( null ) ;
+InsertMissedStmt4 rank2fixsplit ! <unk>
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( null ) ;
+InsertMissedStmt4 rank2fixsplit option != null && option != null
+InsertMissedStmt1 rank2fixsplit setSelected ( 0 ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( null ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( true ) ;
+InsertMissedStmt4 rank2fixsplit ! <unk> . <unk> ( )
+InsertMissedStmt1 rank2fixsplit requestRepaint ( ) ;
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( this ) ;
+InsertMissedStmt1 rank2fixsplit selected . stop ( ) ;
+InsertMissedStmt1 rank2fixsplit AlreadySelectedException ( option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( this ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( null ) ;
+InsertMissedStmt4 rank2fixsplit <unk> ( )
+InsertMissedStmt1 rank2fixsplit option . <unk> ( false ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit true
+InsertMissedStmt1 rank2fixsplit <unk> . clear ( ) ;
+<unk> rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit <unk> . setSelected ( false ) ;
+InsertMissedStmt4 rank2fixsplit <unk>
+InsertMissedStmt4 rank2fixsplit option == null
+InsertMissedStmt1 rank2fixsplit <unk> ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( selected ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( <unk> ) ;
+InsertMissedStmt1 rank2fixsplit System . out . println ( option ) ;
+InsertMissedStmt1 rank2fixsplit option . setSelected ( false ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit option . setSelected ( true ) ;
+MutateDataType1 rank2fixsplit selected rank2fixsplit AlreadySelectedException
+InsertNullPointerChecker4 rank2fixsplit option
+InsertMissedStmt4 rank2fixsplit selected != null
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( selected ) ;
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( <unk> ) ;
+InsertMissedStmt4 rank2fixsplit option != null
+InsertMissedStmt1 rank2fixsplit setSelected ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( selected ) ;
+InsertMissedStmt1 rank2fixsplit option . reset ( ) ;
+MoveStmt rank2fixsplit - 6
+InsertMissedStmt1 rank2fixsplit selected . destroy ( ) ;
+InsertMissedStmt1 rank2fixsplit setSelected ( this ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( ) . <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit System . exit ( 0 ) ;
+InsertMissedStmt1 rank2fixsplit selected . recycle ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( false ) ;
+InsertMissedStmt1 rank2fixsplit option . cancel ( ) ;
+InsertMissedStmt1 rank2fixsplit LOG . info ( "STRING" , option ) ;
+InsertMissedStmt4 rank2fixsplit ! option . isEmpty ( )
+InsertMissedStmt1 rank2fixsplit selected . remove ( option ) ;
+InsertMissedStmt1 rank2fixsplit System . setProperty ( "STRING" , "STRING" ) ;
+InsertNullPointerChecker1 rank2fixsplit option . getOpt ( )
+InsertMissedStmt4 rank2fixsplit ! ( option instanceof <unk> )
+InsertMissedStmt1 rank2fixsplit option . close ( ) ;
+InsertMissedStmt1 rank2fixsplit selected . init ( ) ;
+InsertMissedStmt1 rank2fixsplit requestLayout ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . setSelected ( option ) ;
+InsertMissedStmt1 rank2fixsplit option ( option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . cancel ( ) ;
+MoveStmt rank2fixsplit - 5
+InsertMissedStmt4 rank2fixsplit selected != null && option != null
+InsertMissedStmt2 rank2fixsplit null
+InsertMissedStmt1 rank2fixsplit setSelected ( <unk> ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit <unk>
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit null
+MoveStmt rank2fixsplit 4
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit false
+InsertMissedStmt1 rank2fixsplit log . info ( "STRING" , option ) ;
+MutateOperators1 rank2fixsplit ( rank2fixsplit <=
+MutateVariable2 rank2fixsplit option rank2fixsplit this . selected
+InsertMissedStmt1 rank2fixsplit <unk> ( ) . <unk> ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( true ) ;
+MutateVariable2 rank2fixsplit selected rank2fixsplit this . option
+MutateConditionalExpr3 rank2fixsplit option . getOpt ( ) rank2fixsplit || rank2fixsplit <unk>
+InsertMissedStmt1 rank2fixsplit LOG . debug ( "STRING" , option ) ;
+MoveStmt rank2fixsplit - 8
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( <unk> ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( option , <unk> ) ;
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( true ) ;
+MutateOperators1 rank2fixsplit ( rank2fixsplit !=
+MoveStmt rank2fixsplit - 7
+InsertMissedStmt1 rank2fixsplit <unk> ( option , this ) ;
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit getOpt
+InsertMissedStmt1 rank2fixsplit logger . info ( "STRING" , option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . setSelected ( ) ;
+MutateVariable1 rank2fixsplit option rank2fixsplit selected
+InsertMissedStmt4 rank2fixsplit <unk> . <unk> ( )
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( 0 ) ;
+InsertMissedStmt1 rank2fixsplit selected . requestFocus ( ) ;
+InsertMissedStmt1 rank2fixsplit selected . shutdown ( ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit "STRING"
+InsertMissedStmt4 rank2fixsplit null != option
+InsertMissedStmt1 rank2fixsplit <unk> . setSelected ( this ) ;
+MutateMethodInvExpr2 rank2fixsplit option . getOpt ( ) rank2fixsplit option
+MutateLiteralExpr1 rank2fixsplit ) rank2fixsplit <unk>
+InsertMissedStmt1 rank2fixsplit finish ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( null ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( "STRING" , option ) ;
+InsertMissedStmt1 rank2fixsplit AlreadySelectedException . <unk> ( ) ;
+MutateVariable1 rank2fixsplit option rank2fixsplit Option
+MutateMethodInvExpr2 rank2fixsplit option rank2fixdelimiter option rank2fixsplit option rank2fixdelimiter this
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit AlreadySelectedException
+InsertMissedStmt1 rank2fixsplit selected . <unk> ( 0 ) ;
+InsertMissedStmt1 rank2fixsplit option . stop ( ) ;
+InsertMissedStmt1 rank2fixsplit checkNotNull ( option ) ;
+InsertMissedStmt1 rank2fixsplit Objects . requireNonNull ( option , "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . reset ( ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( this ) ;
+InsertMissedStmt1 rank2fixsplit invalidate ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( selected ) ;
+MutateDataType1 rank2fixsplit selected rank2fixsplit AlreadySelectedException < ? >
+InsertMissedStmt1 rank2fixsplit LOG . info ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit this . selected . <unk> ( ) ;
+InsertMissedStmt1 rank2fixsplit ( ( <unk> ) option ) ;
+MoveStmt rank2fixsplit - 9
+InsertMissedStmt1 rank2fixsplit log . debug ( "STRING" , option ) ;
+InsertMissedStmt1 rank2fixsplit option . remove ( option ) ;
+MutateOperators1 rank2fixsplit = rank2fixsplit |=
+InsertMissedStmt1 rank2fixsplit option . set ( "STRING" , "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit this . option ( option ) ;
+InsertMissedStmt1 rank2fixsplit logger . debug ( "STRING" , option ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( null ) ;
+MutateMethodInvExpr3 rank2fixsplit option
+InsertMissedStmt4 rank2fixsplit selected != option
+InsertMissedStmt4 rank2fixsplit ! option . equals ( "STRING" )
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( false ) ;
+InsertMissedStmt4 rank2fixsplit selected == null
+InsertMissedStmt1 rank2fixsplit <unk> . destroy ( ) ;
+InsertMissedStmt1 rank2fixsplit LOG . info ( "STRING" + option ) ;
+InsertMissedStmt1 rank2fixsplit notifyDataSetChanged ( ) ;
+InsertMissedStmt1 rank2fixsplit LOGGER . info ( "STRING" , option ) ;
+InsertMissedStmt1 rank2fixsplit Log . d ( TAG , "STRING" ) ;
+MutateVariable2 rank2fixsplit option rank2fixsplit this
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( false ) ;
+InsertMissedStmt1 rank2fixsplit this . selected . <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit this . option . <unk> ( ) ;
+InsertMissedStmt4 rank2fixsplit ! TextUtils . isEmpty ( option )
+InsertMissedStmt1 rank2fixsplit <unk> ( option , true ) ;
+InsertMissedStmt4 rank2fixsplit ! <unk> ( option )
+MoveStmt rank2fixsplit 6
+MutateConditionalExpr3 rank2fixsplit option . getOpt ( ) rank2fixsplit && rank2fixsplit false
+InsertMissedStmt1 rank2fixsplit selected . dispose ( ) ;
+InsertMissedStmt1 rank2fixsplit this . setSelected ( true ) ;
+InsertMissedStmt1 rank2fixsplit option . destroy ( ) ;
+MutateLiteralExpr2 rank2fixsplit ) rank2fixsplit <unk>
+InsertMissedStmt1 rank2fixsplit update ( ) ;
+InsertMissedStmt1 rank2fixsplit context . <unk> ( ) ;
+MutateVariable2 rank2fixsplit selected rank2fixsplit option . <unk> ( )
+InsertMissedStmt1 rank2fixsplit option . setSelected ( this ) ;
+MutateConditionalExpr3 rank2fixsplit option . getOpt ( ) rank2fixsplit || rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit this . option . <unk> ( option ) ;
+InsertMissedStmt1 rank2fixsplit dismiss ( ) ;
+MutateVariable1 rank2fixsplit option rank2fixsplit <unk>
+InsertMissedStmt4 rank2fixsplit false
+InsertMissedStmt1 rank2fixsplit option . recycle ( ) ;
+MutateVariable1 rank2fixsplit getOpt rank2fixsplit <unk>
+InsertMissedStmt1 rank2fixsplit this . <unk> ( <unk> ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . init ( ) ;
+InsertMissedStmt1 rank2fixsplit client . <unk> ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( option , "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit logger . info ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit mContext . <unk> ( ) ;
+MoveStmt rank2fixsplit - 10
+InsertMissedStmt4 rank2fixsplit enabled
+InsertMissedStmt1 rank2fixsplit option ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit selected . set ( option ) ;
+InsertMissedStmt1 rank2fixsplit option . setSelected ( null ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( option , selected ) ;
+InsertMissedStmt1 rank2fixsplit System . gc ( ) ;
+InsertMissedStmt4 rank2fixsplit ! option . isClosed ( )
+MoveStmt rank2fixsplit - 12
+InsertMissedStmt1 rank2fixsplit this . <unk> . <unk> ( option ) ;
+MutateOperators1 rank2fixsplit ( rank2fixsplit >=
+InsertMissedStmt4 rank2fixsplit <unk> ( ) == null
+InsertMissedStmt1 rank2fixsplit selected . removeMessages ( <unk> ) ;
+InsertMissedStmt1 rank2fixsplit StringUtils . <unk> ( option ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit <unk> ( )
+InsertMissedStmt1 rank2fixsplit option . setSelected ( option ) ;
+InsertMissedStmt1 rank2fixsplit selected . setText ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit log . info ( "STRING" ) ;
+MutateVariable1 rank2fixsplit option rank2fixsplit setSelected
+InsertMissedStmt4 rank2fixsplit option instanceof <unk>
+InsertMissedStmt4 rank2fixsplit option . <unk> ( ) == null
+InsertMissedStmt1 rank2fixsplit this . <unk> . <unk> ( ) ;
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit getInstance
+InsertMissedStmt1 rank2fixsplit AlreadySelectedException . <unk> ( option ) ;
+MutateConditionalExpr3 rank2fixsplit option . getOpt ( ) rank2fixsplit && rank2fixsplit enabled
+MoveStmt rank2fixsplit - 11
+MoveStmt rank2fixsplit 5
+InsertMissedStmt1 rank2fixsplit selected . cancel ( option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . close ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . setSelected ( null ) ;
+InsertMissedStmt1 rank2fixsplit selected . set ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . stop ( ) ;
+InsertMissedStmt1 rank2fixsplit <unk> . <unk> ( "STRING" ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( <unk> . <unk> ) ;
+InsertMissedStmt1 rank2fixsplit option . init ( ) ;
+MutateConditionalExpr2 rank2fixsplit ; rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit <unk> ( option , false ) ;
+MutateDataType1 rank2fixsplit selected rank2fixsplit Option < ? >
+MutateConditionalExpr2 rank2fixsplit ( option . getOpt ( ) ) rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit <unk> ( this , <unk> ) ;
+MutateReturnStmt rank2fixsplit option . getOpt ( ) rank2fixsplit option
+InsertCastChecker rank2fixsplit option rank2fixsplit option
+InsertMissedStmt1 rank2fixsplit <unk> ( ) . <unk> ( this ) ;
+InsertMissedStmt1 rank2fixsplit this . setSelected ( option ) ;
+MutateMethodInvExpr2 rank2fixsplit option . getOpt ( ) rank2fixsplit this
+InsertMissedStmt4 rank2fixsplit ! option . isDisposed ( )
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit get
+InsertMissedStmt1 rank2fixsplit this . setSelected ( false ) ;
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( selected ) ;
+InsertMissedStmt1 rank2fixsplit option . <unk> ( <unk> . <unk> ) ;
+InsertMissedStmt1 rank2fixsplit selected . setSelected ( <unk> ) ;
+InsertMissedStmt1 rank2fixsplit this . <unk> ( selected ) ;
+InsertMissedStmt4 rank2fixsplit ! option . exists ( )
+InsertMissedStmt1 rank2fixsplit <unk> ( 0 ) ;
+InsertMissedStmt1 rank2fixsplit option . setText ( "STRING" ) ;
+InsertMissedStmt4 rank2fixsplit ! option
+InsertMissedStmt1 rank2fixsplit option . requestFocus ( ) ;
+InsertMissedStmt1 rank2fixsplit selected . update ( ) ;
+InsertMissedStmt1 rank2fixsplit setSelected ( selected . <unk> ( ) ) ;
+InsertMissedStmt4 rank2fixsplit option != null && selected != null
+InsertMissedStmt1 rank2fixsplit <unk> ( ) . setSelected ( true ) ;
+MutateMethodInvExpr2 rank2fixsplit option rank2fixdelimiter option rank2fixsplit option rank2fixdelimiter option
+InsertMissedStmt1 rank2fixsplit <unk> . remove ( option ) ;
+InsertMissedStmt1 rank2fixsplit <unk> ( new <unk> ( ) ) ;
+MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit stop
+InsertMissedStmt4 rank2fixsplit this != option
+MutateVariable1 rank2fixsplit selected rank2fixsplit selected
+InsertMissedStmt1 rank2fixsplit <unk> ( this , this ) ;
+InsertMissedStmt4 rank2fixsplit option != null && option . <unk> ( )
+MutateVariable1 rank2fixsplit selected rank2fixsplit Option
+InsertMissedStmt1 rank2fixsplit selected . delete ( ) ;
+MutateMethodInvExpr4 rank2fixsplit rank2fixargempty rank2fixsplit rank2fixsplit Locale . ENGLISH

@@ -1,0 +1,5 @@
+55c55,56
+<       Collection c=r.getAnnotations();
+---
+> if (r == null) return null;
+>         Collection c=r.getAnnotations();  

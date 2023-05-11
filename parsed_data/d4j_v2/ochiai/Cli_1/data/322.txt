@@ -1,0 +1,11 @@
+List helpOptions(){
+  List opts=new ArrayList(shortOpts.values());
+  Iterator iter=longOpts.values().iterator();
+  while (iter.hasNext()) {
+    Object item=iter.next();
+    if (!opts.contains(item)) {
+ rank2fixstart       opts.add(item); rank2fixend 
+    }
+  }
+  return new ArrayList(opts);
+}

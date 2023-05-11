@@ -1,0 +1,4 @@
+2c2
+<   String name=t.asEndTag().normalName();
+---
+>  String name = t . asEndTag ( ) . name ( ) ; 

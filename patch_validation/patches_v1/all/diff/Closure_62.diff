@@ -1,0 +1,4 @@
+21c21
+<     if (excerpt.equals(LINE) && 0 <= charno && charno < sourceExcerpt.length()) {
+---
+>  if ( excerpt . equals ( LINE ) && 0 <= charno && charno <= sourceExcerpt . length ( ) ) { 

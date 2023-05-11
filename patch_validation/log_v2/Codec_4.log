@@ -1,0 +1,15 @@
+INFO:root:2023-02-16 18:13:00 --> Current Version: Codec_4
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.codec.binary.Base64@225
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:13:06 --> Codec_4: (1) MutateLiteralExpr1 rank2fixsplit false rank2fixsplit true
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:13:12 --> Codec_4: (3) MutateLiteralExpr2 rank2fixsplit false rank2fixsplit null
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:13:22 --> Codec_4: (4) MutateLiteralExpr2 rank2fixsplit false rank2fixsplit <unk>
+INFO:root:Successful

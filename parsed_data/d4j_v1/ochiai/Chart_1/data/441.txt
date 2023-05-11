@@ -1,0 +1,8 @@
+ rank2fixstart protected AbstractCategoryItemRenderer(){ rank2fixend 
+  this.itemLabelGeneratorList=new ObjectList();
+  this.toolTipGeneratorList=new ObjectList();
+  this.urlGeneratorList=new ObjectList();
+  this.legendItemLabelGenerator=new StandardCategorySeriesLabelGenerator();
+  this.backgroundAnnotations=new ArrayList();
+  this.foregroundAnnotations=new ArrayList();
+}

@@ -1,0 +1,120 @@
+INFO:root:2023-02-16 18:14:47 --> Current Version: Codec_2
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.codec.binary.Base64@446
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:14:56 --> Codec_2: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:14:57 --> Codec_2: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:01 --> Codec_2: (2) MutateOperators1 rank2fixsplit > rank2fixsplit >=
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:04 --> Codec_2: (3) MutateLiteralExpr1 rank2fixsplit 0 rank2fixsplit 1
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:06 --> Codec_2: (3) MutateLiteralExpr1 rank2fixsplit 0 rank2fixsplit 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:10 --> Codec_2: (4) MoveStmt rank2fixsplit 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:13 --> Codec_2: (5) MutateOperators1 rank2fixsplit > rank2fixsplit !=
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:20 --> Codec_2: (6) MoveStmt rank2fixsplit 3
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:24 --> Codec_2: (7) MutateLiteralExpr2 rank2fixsplit 0 rank2fixsplit - 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:28 --> Codec_2: (8) MutateLiteralExpr1 rank2fixsplit 0 rank2fixsplit 3
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:34 --> Codec_2: (9) MutateOperators1 rank2fixsplit > rank2fixsplit ==
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:43 --> Codec_2: (11) MutateOperators1 rank2fixsplit > rank2fixsplit <
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:15:50 --> Codec_2: (12) MoveStmt rank2fixsplit 2
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:01 --> Codec_2: (15) MutateOperators1 rank2fixsplit > rank2fixsplit <=
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:07 --> Codec_2: (17) MutateLiteralExpr2 rank2fixsplit 0 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:09 --> Codec_2: (17) MutateLiteralExpr2 rank2fixsplit 0 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:10 --> Codec_2: (17) MutateLiteralExpr2 rank2fixsplit 0 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:16:13 --> Codec_2: (18) MoveStmt rank2fixsplit - 1
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:24 --> Codec_2: (21) MoveStmt rank2fixsplit - 2
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:29 --> Codec_2: (22) InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:31 --> Codec_2: (22) InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:32 --> Codec_2: (22) InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:42 --> Codec_2: (25) MutateConditionalExpr3 rank2fixsplit lineLength > 0 rank2fixsplit && rank2fixsplit lineLength <= 0
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:53 --> Codec_2: (28) MutateVariable1 rank2fixsplit lineLength rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:16:58 --> Codec_2: (28) MutateVariable1 rank2fixsplit lineLength rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:17:00 --> Codec_2: (28) MutateVariable1 rank2fixsplit lineLength rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:17:07 --> Codec_2: (29) MoveStmt rank2fixsplit - 3
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:17:11 --> Codec_2: (30) MutateLiteralExpr1 rank2fixsplit 0 rank2fixsplit 4
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:17:17 --> Codec_2: (31) MutateConditionalExpr3 rank2fixsplit lineLength > 0 rank2fixsplit && rank2fixsplit <unk> > 0
+INFO:root:Successful

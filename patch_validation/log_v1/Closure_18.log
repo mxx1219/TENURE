@@ -1,0 +1,28 @@
+INFO:root:2023-02-16 21:37:38 --> Current Version: Closure_18
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.Compiler@1288
+INFO:root:False, False, False
+INFO:root:2023-02-16 21:37:55 --> Closure_18: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:38:06 --> Closure_18: (2) MutateConditionalExpr2 rank2fixsplit && rank2fixsplit options . <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:38:34 --> Closure_18: (6) MutateVariable1 rank2fixsplit closurePass rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:38:36 --> Closure_18: (6) MutateVariable1 rank2fixsplit closurePass rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:38:38 --> Closure_18: (6) MutateVariable1 rank2fixsplit closurePass rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 21:40:55 --> Closure_18: (8) MutateConditionalExpr2 rank2fixsplit && rank2fixsplit options . closurePass
+INFO:root:Successful

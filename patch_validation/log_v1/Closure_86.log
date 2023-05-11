@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:32:27 --> Current Version: Closure_86
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.NodeUtil@2465
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:34:12 --> Closure_86: (1) MutateLiteralExpr1 rank2fixsplit true rank2fixsplit false
+INFO:root:Successful

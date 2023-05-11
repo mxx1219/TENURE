@@ -1,0 +1,3 @@
+public static Option create(char opt) throws IllegalArgumentException {
+ rank2fixstart   return create(String.valueOf(opt)); rank2fixend 
+}

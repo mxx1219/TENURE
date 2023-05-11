@@ -1,0 +1,4 @@
+public boolean hasOption(String opt){
+ rank2fixstart   opt=Util.stripLeadingHyphens(opt); rank2fixend 
+  return shortOpts.containsKey(opt) || longOpts.containsKey(opt);
+}

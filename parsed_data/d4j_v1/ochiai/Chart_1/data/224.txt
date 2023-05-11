@@ -1,0 +1,3 @@
+public void setDomainAxisLocation(AxisLocation location,boolean notify){
+ rank2fixstart   setDomainAxisLocation(0,location,notify); rank2fixend 
+}

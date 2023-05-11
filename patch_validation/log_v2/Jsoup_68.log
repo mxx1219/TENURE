@@ -1,0 +1,10 @@
+INFO:root:2023-02-16 18:35:15 --> Current Version: Jsoup_68
+INFO:root:defects4j compile ...
+INFO:root:========== org.jsoup.parser.HtmlTreeBuilder@469
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:35:19 --> Jsoup_68: (1) MutateOperators1 rank2fixsplit > rank2fixsplit >=
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:35:28 --> Jsoup_68: (2) RemoveBuggyStmt
+INFO:root:Successful

@@ -1,0 +1,3 @@
+public boolean isRequired(){
+ rank2fixstart   return this.required; rank2fixend 
+}

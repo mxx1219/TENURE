@@ -1,0 +1,4 @@
+3,5d2
+<   if (bottom > MaxScopeSearchDepth) {
+<     bottom=MaxScopeSearchDepth;
+<   }

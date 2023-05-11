@@ -1,0 +1,4 @@
+35c35
+< if (!inAttribute) accum.append("&lt;");
+---
+>  if ( ! inAttribute || escapeMode == EscapeMode . xhtml ) accum . append ( "&lt;" ) ; 

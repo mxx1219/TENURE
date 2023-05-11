@@ -1,0 +1,16 @@
+public boolean equals(Object o){
+ rank2fixstart   if (this == o) { rank2fixend 
+    return true;
+  }
+  if (o == null || getClass() != o.getClass()) {
+    return false;
+  }
+  Option option=(Option)o;
+  if (opt != null ? !opt.equals(option.opt) : option.opt != null) {
+    return false;
+  }
+  if (longOpt != null ? !longOpt.equals(option.longOpt) : option.longOpt != null) {
+    return false;
+  }
+  return true;
+}

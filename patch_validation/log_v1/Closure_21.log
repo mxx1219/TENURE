@@ -1,0 +1,21 @@
+INFO:root:2023-02-16 20:29:27 --> Current Version: Closure_21
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.CheckSideEffects@118
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:29:47 --> Closure_21: (1) MutateMethodInvExpr1 rank2fixsplit getAncestors rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:29:49 --> Closure_21: (1) MutateMethodInvExpr1 rank2fixsplit getAncestors rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:29:50 --> Closure_21: (1) MutateMethodInvExpr1 rank2fixsplit getAncestors rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:30:01 --> Closure_21: (2) InsertNullPointerChecker1 rank2fixsplit parent
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:32:38 --> Closure_21: (4) RemoveBuggyStmt
+INFO:root:Successful

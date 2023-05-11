@@ -1,0 +1,6 @@
+public void setPlot(CategoryPlot plot){
+  if (plot == null) {
+    throw new IllegalArgumentException("Null 'plot' argument.");
+  }
+ rank2fixstart   this.plot=plot; rank2fixend 
+}

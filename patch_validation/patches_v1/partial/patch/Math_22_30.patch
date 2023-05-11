@@ -1,0 +1,3 @@
+public boolean isSupportLowerBoundInclusive(){
+ numericalVarianceIsCalculated = true ; return false ;
+}

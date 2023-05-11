@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:29:32 --> Current Version: Closure_92
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.ProcessClosurePrimitives@789
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:31:07 --> Closure_92: (1) MutateMethodInvExpr1 rank2fixsplit indexOf rank2fixsplit lastIndexOf
+INFO:root:Successful

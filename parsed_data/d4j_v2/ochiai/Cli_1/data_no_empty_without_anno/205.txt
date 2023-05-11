@@ -1,0 +1,4 @@
+public static OptionBuilder withValueSeparator(char sep){
+  OptionBuilder.valuesep=sep;
+  return instance;
+}

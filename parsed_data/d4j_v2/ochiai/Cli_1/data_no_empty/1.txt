@@ -1,0 +1,4 @@
+public static OptionBuilder withArgName(String name){
+ rank2fixstart   OptionBuilder.argName=name; rank2fixend 
+  return instance;
+}

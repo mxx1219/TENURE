@@ -1,0 +1,5 @@
+5c5,6
+<     int strLen=str.length();
+---
+> if (str == null) str = toString ( );
+>       int strLen=str.length();  

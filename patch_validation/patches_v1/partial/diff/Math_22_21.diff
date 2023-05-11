@@ -1,0 +1,4 @@
+2c2
+<   return true;
+---
+>  if ( true ) { return false ; } return true ;

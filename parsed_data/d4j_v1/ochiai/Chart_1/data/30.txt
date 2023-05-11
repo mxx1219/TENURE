@@ -1,0 +1,3 @@
+ rank2fixstart public LineAndShapeRenderer(){ rank2fixend 
+  this(true,true);
+}

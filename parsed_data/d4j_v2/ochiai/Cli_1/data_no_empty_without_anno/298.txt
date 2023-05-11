@@ -1,0 +1,4 @@
+public Options addOption(String opt,String longOpt,boolean hasArg,String description){
+  addOption(new Option(opt,longOpt,hasArg,description));
+  return this;
+}

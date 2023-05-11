@@ -1,0 +1,4 @@
+4c4
+<     final int dp=p1[i] - p2[i];
+---
+>  final double dp = p1 [ i ] - p2 [ i ] ; 

@@ -1,0 +1,18 @@
+INFO:root:2023-02-16 18:39:56 --> Current Version: Gson_6
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory@67
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:40:08 --> Gson_6: (2) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:40:09 --> Gson_6: (2) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:40:14 --> Gson_6: (4) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:40:21 --> Gson_6: (4) InsertNullPointerChecker1 rank2fixsplit <unk>
+INFO:root:Successful

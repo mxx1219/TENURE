@@ -1,0 +1,3 @@
+public String getValue(int index) throws IndexOutOfBoundsException {
+ rank2fixstart   return hasNoValues() ? null : (String)this.values.get(index); rank2fixend 
+}

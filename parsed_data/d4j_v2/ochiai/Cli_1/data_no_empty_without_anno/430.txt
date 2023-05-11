@@ -1,0 +1,3 @@
+public MissingOptionException(String message){
+  super(message);
+}

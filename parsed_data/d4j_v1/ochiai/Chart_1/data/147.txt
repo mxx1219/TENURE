@@ -1,0 +1,67 @@
+public CategoryPlot(CategoryDataset dataset,CategoryAxis domainAxis,ValueAxis rangeAxis,CategoryItemRenderer renderer){
+  super();
+  this.orientation=PlotOrientation.VERTICAL;
+  this.domainAxes=new ObjectList();
+  this.domainAxisLocations=new ObjectList();
+  this.rangeAxes=new ObjectList();
+  this.rangeAxisLocations=new ObjectList();
+  this.datasetToDomainAxesMap=new TreeMap();
+  this.datasetToRangeAxesMap=new TreeMap();
+  this.renderers=new ObjectList();
+  this.datasets=new ObjectList();
+  this.datasets.set(0,dataset);
+  if (dataset != null) {
+    dataset.addChangeListener(this);
+  }
+  this.axisOffset=new RectangleInsets(4.0,4.0,4.0,4.0);
+  setDomainAxisLocation(AxisLocation.BOTTOM_OR_LEFT,false);
+  setRangeAxisLocation(AxisLocation.TOP_OR_LEFT,false);
+  this.renderers.set(0,renderer);
+  if (renderer != null) {
+    renderer.setPlot(this);
+    renderer.addChangeListener(this);
+  }
+  this.domainAxes.set(0,domainAxis);
+  this.mapDatasetToDomainAxis(0,0);
+  if (domainAxis != null) {
+    domainAxis.setPlot(this);
+    domainAxis.addChangeListener(this);
+  }
+  this.drawSharedDomainAxis=false;
+  this.rangeAxes.set(0,rangeAxis);
+  this.mapDatasetToRangeAxis(0,0);
+  if (rangeAxis != null) {
+    rangeAxis.setPlot(this);
+    rangeAxis.addChangeListener(this);
+  }
+  configureDomainAxes();
+  configureRangeAxes();
+  this.domainGridlinesVisible=DEFAULT_DOMAIN_GRIDLINES_VISIBLE;
+  this.domainGridlinePosition=CategoryAnchor.MIDDLE;
+  this.domainGridlineStroke=DEFAULT_GRIDLINE_STROKE;
+  this.domainGridlinePaint=DEFAULT_GRIDLINE_PAINT;
+  this.rangeZeroBaselineVisible=false;
+  this.rangeZeroBaselinePaint=Color.black;
+  this.rangeZeroBaselineStroke=new BasicStroke(0.5f);
+  this.rangeGridlinesVisible=DEFAULT_RANGE_GRIDLINES_VISIBLE;
+  this.rangeGridlineStroke=DEFAULT_GRIDLINE_STROKE;
+  this.rangeGridlinePaint=DEFAULT_GRIDLINE_PAINT;
+  this.rangeMinorGridlinesVisible=false;
+  this.rangeMinorGridlineStroke=DEFAULT_GRIDLINE_STROKE;
+ rank2fixstart   this.rangeMinorGridlinePaint=Color.white; rank2fixend 
+  this.foregroundDomainMarkers=new HashMap();
+  this.backgroundDomainMarkers=new HashMap();
+  this.foregroundRangeMarkers=new HashMap();
+  this.backgroundRangeMarkers=new HashMap();
+  this.anchorValue=0.0;
+  this.domainCrosshairVisible=false;
+  this.domainCrosshairStroke=DEFAULT_CROSSHAIR_STROKE;
+  this.domainCrosshairPaint=DEFAULT_CROSSHAIR_PAINT;
+  this.rangeCrosshairVisible=DEFAULT_CROSSHAIR_VISIBLE;
+  this.rangeCrosshairValue=0.0;
+  this.rangeCrosshairStroke=DEFAULT_CROSSHAIR_STROKE;
+  this.rangeCrosshairPaint=DEFAULT_CROSSHAIR_PAINT;
+  this.annotations=new java.util.ArrayList();
+  this.rangePannable=false;
+  this.shadowGenerator=new DefaultShadowGenerator();
+}

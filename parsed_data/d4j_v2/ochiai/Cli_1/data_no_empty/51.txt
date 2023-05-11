@@ -1,0 +1,3 @@
+public String getOpt(){
+ rank2fixstart   return this.opt; rank2fixend 
+}

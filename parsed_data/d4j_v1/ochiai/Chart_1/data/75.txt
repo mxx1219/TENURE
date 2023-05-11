@@ -1,0 +1,4 @@
+ rank2fixstart public SelectableValue(Number value,boolean selected){ rank2fixend 
+  this.value=value;
+  this.selected=selected;
+}

@@ -1,0 +1,16 @@
+private void process(String value){
+  if ((currentOption != null) && currentOption.hasArg()) {
+    if (currentOption.hasArg()) {
+      tokens.add(value);
+      currentOption=null;
+    }
+ else     if (currentOption.hasArgs()) {
+      tokens.add(value);
+    }
+  }
+ else {
+    eatTheRest=true;
+    tokens.add("--");
+    tokens.add(value);
+  }
+}

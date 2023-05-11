@@ -1,0 +1,4 @@
+78c78
+<       return foundDigit && !hasExp;
+---
+>  return foundDigit && ! hasExp && ! hasDecPoint ; 

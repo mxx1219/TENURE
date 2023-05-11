@@ -1,0 +1,6 @@
+3c3,5
+<     calendar=(Calendar)calendar.clone();
+---
+> if (calendar . getTime ( ) != null){
+>       calendar=(Calendar)calendar.clone();  
+> }

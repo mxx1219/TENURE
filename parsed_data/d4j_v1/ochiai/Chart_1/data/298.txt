@@ -1,0 +1,4 @@
+ rank2fixstart protected AbstractDataset(){ rank2fixend 
+  this.group=new DatasetGroup();
+  this.listenerList=new EventListenerList();
+}

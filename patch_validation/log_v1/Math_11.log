@@ -1,0 +1,20 @@
+INFO:root:2023-02-16 21:53:21 --> Current Version: Math_11
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.math3.distribution.MultivariateNormalDistribution@183
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:53:37 --> Math_11: (3) MutateMethodInvExpr2 rank2fixsplit 2 * FastMath . PI rank2fixsplit FastMath . PI
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:53:40 --> Math_11: (4) MutateMethodInvExpr2 rank2fixsplit 2 * FastMath . PI rank2fixsplit 2 * FastMath . PI
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 21:53:46 --> Math_11: (6) MutateLiteralExpr1 rank2fixsplit 2 rank2fixsplit 1
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 21:55:48 --> Math_11: (6) MutateLiteralExpr1 rank2fixsplit 2 rank2fixsplit 1
+INFO:root:Successful

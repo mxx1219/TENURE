@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:06:13 --> Current Version: Closure_73
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.CodeGenerator@1045
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:08:17 --> Closure_73: (1) MutateOperators1 rank2fixsplit <= rank2fixsplit <
+INFO:root:Successful

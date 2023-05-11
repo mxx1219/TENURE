@@ -1,0 +1,3 @@
+ rank2fixstart public void setDescription(String description){ rank2fixend 
+  this.description=description;
+}

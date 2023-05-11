@@ -1,0 +1,32 @@
+INFO:root:2023-02-16 18:27:33 --> Current Version: Jsoup_85
+INFO:root:defects4j compile ...
+INFO:root:========== org.jsoup.nodes.Attribute@45
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:27:46 --> Jsoup_85: (1) MutateMethodInvExpr1 rank2fixsplit notEmpty rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:27:53 --> Jsoup_85: (4) InsertNullPointerChecker1 rank2fixsplit key
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:27:56 --> Jsoup_85: (5) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:27:57 --> Jsoup_85: (5) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:28:01 --> Jsoup_85: (6) MutateVariable1 rank2fixsplit key rank2fixsplit key
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:28:04 --> Jsoup_85: (7) MutateVariable1 rank2fixsplit key rank2fixsplit val
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:28:17 --> Jsoup_85: (9) MutateVariable2 rank2fixsplit key rank2fixsplit this . key
+INFO:root:Successful

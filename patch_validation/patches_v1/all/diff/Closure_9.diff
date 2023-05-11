@@ -1,0 +1,4 @@
+2c2
+<   if (filename.indexOf(filenamePrefix) == 0) {
+---
+>  filename = filename . replace ( '\\' , '/' ) ; if ( filename . indexOf ( filenamePrefix ) == 0 ) {

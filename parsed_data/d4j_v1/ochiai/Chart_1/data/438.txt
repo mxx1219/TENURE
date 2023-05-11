@@ -1,0 +1,6 @@
+public StandardCategorySeriesLabelGenerator(String format){
+ rank2fixstart   if (format == null) { rank2fixend 
+    throw new IllegalArgumentException("Null 'format' argument.");
+  }
+  this.formatPattern=format;
+}

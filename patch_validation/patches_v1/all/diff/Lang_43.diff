@@ -1,0 +1,5 @@
+5c5,6
+<     return appendTo == null ? null : appendTo.append(QUOTE);
+---
+> next ( pos ) ;
+>       return appendTo == null ? null : appendTo.append(QUOTE);  

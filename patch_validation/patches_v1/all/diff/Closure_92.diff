@@ -1,0 +1,4 @@
+34c34
+<       int indexOfDot=namespace.indexOf('.');
+---
+>  int indexOfDot = namespace . lastIndexOf ( '.' ) ; 

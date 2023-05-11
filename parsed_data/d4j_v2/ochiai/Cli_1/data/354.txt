@@ -1,0 +1,25 @@
+private void processProperties(Properties properties){
+  if (properties == null) {
+    return;
+  }
+  for (Enumeration e=properties.propertyNames(); e.hasMoreElements(); ) {
+    String option=e.nextElement().toString();
+    if (!cmd.hasOption(option)) {
+      Option opt=options.getOption(option);
+      String value=properties.getProperty(option);
+ rank2fixstart       if (opt.hasArg()) { rank2fixend 
+        if ((opt.getValues() == null) || (opt.getValues().length == 0)) {
+          try {
+            opt.addValue(value);
+          }
+ catch (          RuntimeException exp) {
+          }
+        }
+      }
+ else       if (!("yes".equalsIgnoreCase(value) || "true".equalsIgnoreCase(value) || "1".equalsIgnoreCase(value))) {
+        break;
+      }
+      cmd.addOption(opt);
+    }
+  }
+}

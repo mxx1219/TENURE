@@ -1,0 +1,35 @@
+INFO:root:2023-02-16 18:24:51 --> Current Version: Jsoup_49
+INFO:root:defects4j compile ...
+INFO:root:========== org.jsoup.nodes.Node@446
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:24:58 --> Jsoup_49: (2) InsertMissedStmt1 rank2fixsplit <unk> ( index ) ;
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:00 --> Jsoup_49: (2) InsertMissedStmt1 rank2fixsplit <unk> ( index ) ;
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:01 --> Jsoup_49: (2) InsertMissedStmt1 rank2fixsplit <unk> ( index ) ;
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:05 --> Jsoup_49: (3) InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:06 --> Jsoup_49: (3) InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:08 --> Jsoup_49: (3) InsertMissedStmt1 rank2fixsplit <unk> ( ) ;
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:20 --> Jsoup_49: (5) MutateMethodInvExpr1 rank2fixsplit reindexChildren rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:25:27 --> Jsoup_49: (5) MutateMethodInvExpr1 rank2fixsplit reindexChildren rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:25:37 --> Jsoup_49: (6) MoveStmt rank2fixsplit - 1
+INFO:root:Successful

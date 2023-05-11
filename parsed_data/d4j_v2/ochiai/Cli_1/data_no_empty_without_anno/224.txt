@@ -1,0 +1,4 @@
+public static OptionBuilder withType(Object newType){
+  OptionBuilder.type=newType;
+  return instance;
+}

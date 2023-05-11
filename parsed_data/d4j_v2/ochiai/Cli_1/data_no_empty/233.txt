@@ -1,0 +1,3 @@
+public Object getType(){
+ rank2fixstart   return this.type; rank2fixend 
+}

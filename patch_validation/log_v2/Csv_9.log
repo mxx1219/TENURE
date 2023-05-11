@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 18:12:58 --> Current Version: Csv_9
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.csv.CSVRecord@180
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:13:07 --> Csv_9: (1) InsertNullPointerChecker1 rank2fixsplit mapping
+INFO:root:Successful

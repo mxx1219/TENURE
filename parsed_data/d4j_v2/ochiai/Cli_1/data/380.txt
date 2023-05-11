@@ -1,0 +1,21 @@
+private void processOption(String arg,ListIterator iter) throws ParseException {
+  boolean hasOption=options.hasOption(arg);
+  if (!hasOption) {
+    throw new UnrecognizedOptionException("Unrecognized option: " + arg);
+  }
+  final Option opt=options.getOption(arg);
+  if (opt.isRequired()) {
+    requiredOptions.remove(opt.getKey());
+  }
+  if (options.getOptionGroup(opt) != null) {
+    OptionGroup group=options.getOptionGroup(opt);
+    if (group.isRequired()) {
+      requiredOptions.remove(group);
+    }
+ rank2fixstart     group.setSelected(opt); rank2fixend 
+  }
+  if (opt.hasArg()) {
+    processArgs(opt,iter);
+  }
+  cmd.addOption(opt);
+}

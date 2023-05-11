@@ -1,0 +1,4 @@
+public Options addOption(String opt,boolean hasArg,String description){
+ rank2fixstart   addOption(opt,null,hasArg,description); rank2fixend 
+  return this;
+}

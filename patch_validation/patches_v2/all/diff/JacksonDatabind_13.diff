@@ -1,0 +1,5 @@
+3c3,4
+<   ReadableObjectId roid=ctxt.findObjectId(id,_objectIdReader.generator,_objectIdReader.resolver);
+---
+> if (id == null) return null;
+>     ReadableObjectId roid=ctxt.findObjectId(id,_objectIdReader.generator,_objectIdReader.resolver);  

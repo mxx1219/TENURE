@@ -1,0 +1,4 @@
+20,22d19
+<         if (c > 0 && b.length == len) {
+<           base64.setInitialBuffer(b,offset,len);
+<         }

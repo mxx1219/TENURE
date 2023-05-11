@@ -1,0 +1,3 @@
+ rank2fixstart public void setRangeAxisLocation(AxisLocation location,boolean notify){ rank2fixend 
+  setRangeAxisLocation(0,location,notify);
+}

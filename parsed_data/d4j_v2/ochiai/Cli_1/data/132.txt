@@ -1,0 +1,3 @@
+private boolean hasNoValues(){
+ rank2fixstart   return this.values.size() == 0; rank2fixend 
+}

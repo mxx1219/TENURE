@@ -1,0 +1,3 @@
+ rank2fixstart public StandardCategorySeriesLabelGenerator(){ rank2fixend 
+  this(DEFAULT_LABEL_FORMAT);
+}

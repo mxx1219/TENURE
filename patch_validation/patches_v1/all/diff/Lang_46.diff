@@ -1,0 +1,6 @@
+70c70,72
+< out.write('\\');
+---
+> if (escapeSingleQuote){
+>   out.write('\\');  
+> }

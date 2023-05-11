@@ -1,0 +1,7 @@
+20,25d19
+<   if (trailer == 0 || trailer == ' ') {
+<     end--;
+<   }
+<  else {
+<     throw new IllegalArgumentException(exceptionMessage(buffer,offset,length,end - 1,trailer));
+<   }

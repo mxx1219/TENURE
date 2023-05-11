@@ -1,0 +1,3 @@
+public Iterator iterator(){
+ rank2fixstart   return hashcodeMap.values().iterator(); rank2fixend 
+}

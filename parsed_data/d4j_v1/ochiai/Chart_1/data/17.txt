@@ -1,0 +1,3 @@
+public void setDataset(CategoryDataset dataset){
+ rank2fixstart   setDataset(0,dataset); rank2fixend 
+}

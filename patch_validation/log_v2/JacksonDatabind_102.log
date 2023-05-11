@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 19:05:16 --> Current Version: JacksonDatabind_102
+INFO:root:defects4j compile ...
+INFO:root:========== com.fasterxml.jackson.databind.ser.std.DateTimeSerializerBase@67
+INFO:root:True, True, True
+INFO:root:2023-02-16 19:07:47 --> JacksonDatabind_102: (1) RemoveBuggyStmt
+INFO:root:Successful

@@ -1,0 +1,3 @@
+ rank2fixstart public void setLongOpt(String longOpt){ rank2fixend 
+  this.longOpt=longOpt;
+}

@@ -1,0 +1,3 @@
+public int size(){
+ rank2fixstart   return this.size; rank2fixend 
+}

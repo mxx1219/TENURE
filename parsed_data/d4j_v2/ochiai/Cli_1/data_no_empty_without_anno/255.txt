@@ -1,0 +1,3 @@
+public java.util.List getValuesList(){
+  return this.values;
+}

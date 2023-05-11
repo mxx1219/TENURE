@@ -1,0 +1,14 @@
+public ValueAxis getRangeAxis(int index){
+  ValueAxis result=null;
+  if (index < this.rangeAxes.size()) {
+    result=(ValueAxis)this.rangeAxes.get(index);
+  }
+  if (result == null) {
+ rank2fixstart     Plot parent=getParent(); rank2fixend 
+    if (parent instanceof CategoryPlot) {
+      CategoryPlot cp=(CategoryPlot)parent;
+      result=cp.getRangeAxis(index);
+    }
+  }
+  return result;
+}

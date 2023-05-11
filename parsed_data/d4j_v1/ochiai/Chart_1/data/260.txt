@@ -1,0 +1,3 @@
+public DefaultShadowGenerator(){
+ rank2fixstart   this(5,Color.black,0.5f,5,-Math.PI / 4); rank2fixend 
+}

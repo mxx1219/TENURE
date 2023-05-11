@@ -1,0 +1,3 @@
+public Option(String opt,boolean hasArg,String description) throws IllegalArgumentException {
+ rank2fixstart   this(opt,null,hasArg,description); rank2fixend 
+}

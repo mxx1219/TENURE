@@ -1,0 +1,4 @@
+18c18
+<       value=_elementDeserializer.getNullValue();
+---
+>  value = null ;

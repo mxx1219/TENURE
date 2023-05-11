@@ -1,0 +1,48 @@
+# config.yaml
+
+seed: 2
+save_data: check_point/nocopy_35/
+overwrite: true
+## Where the vocab(s) will be written
+src_vocab: vocab/nocopy_35.vocab
+share_vocab: true
+#n_sample: -1
+
+# Corpus opts:
+data:
+    train:
+        path_src: ../dataset/dataset_ft/train/src.txt
+        path_tgt: ../dataset/dataset_ft/train/tgt.txt
+    valid:
+        path_src: ../dataset/dataset_ft/val/src.txt
+        path_tgt: ../dataset/dataset_ft/val/tgt.txt
+
+# Training
+## GPU settings
+world_size: 1
+gpu_ranks: [0]
+
+# Vocab settings
+src_vocab_size: 30000
+
+# Where to save the checkpoints
+save_model: check_point/nocopy_35/model
+save_checkpoint_steps: 10000
+train_steps: 200000
+valid_steps: 10000
+
+## Batching
+batch_size: 32
+valid_batch_size: 32
+
+## Optimizer
+optim: "adam"
+learning_rate: 0.001
+
+## Model
+encoder_type: brnn
+decoder_type: rnn
+enc_layers: 2
+dec_layers: 2
+rnn_size: 128
+word_vec_size: 128

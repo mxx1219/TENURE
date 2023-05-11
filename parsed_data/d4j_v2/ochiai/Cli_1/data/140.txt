@@ -1,0 +1,43 @@
+protected String[] flatten(Options options,String[] arguments,boolean stopAtNonOption){
+  init();
+  this.options=options;
+  Iterator iter=Arrays.asList(arguments).iterator();
+  String token=null;
+  while (iter.hasNext()) {
+    token=(String)iter.next();
+ rank2fixstart     if (token.startsWith("--")) { rank2fixend 
+      if (token.indexOf('=') != -1) {
+        tokens.add(token.substring(0,token.indexOf('=')));
+        tokens.add(token.substring(token.indexOf('=') + 1,token.length()));
+      }
+ else {
+        tokens.add(token);
+      }
+    }
+ else     if ("-".equals(token)) {
+      processSingleHyphen(token);
+    }
+ else     if (token.startsWith("-")) {
+      int tokenLength=token.length();
+      if (tokenLength == 2) {
+        processOptionToken(token,stopAtNonOption);
+      }
+ else       if (options.hasOption(token)) {
+        tokens.add(token);
+      }
+ else {
+        burstToken(token,stopAtNonOption);
+      }
+    }
+ else {
+      if (stopAtNonOption) {
+        process(token);
+      }
+ else {
+        tokens.add(token);
+      }
+    }
+    gobble(iter);
+  }
+  return (String[])tokens.toArray(new String[]{});
+}

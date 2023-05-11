@@ -1,0 +1,4 @@
+public static OptionBuilder withArgName(String name){
+  OptionBuilder.argName=name;
+  return instance;
+}

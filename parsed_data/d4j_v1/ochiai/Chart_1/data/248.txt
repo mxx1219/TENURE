@@ -1,0 +1,3 @@
+public KeyedObjects(){
+ rank2fixstart   this.data=new java.util.ArrayList(); rank2fixend 
+}

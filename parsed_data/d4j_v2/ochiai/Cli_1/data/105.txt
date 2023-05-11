@@ -1,0 +1,9 @@
+private void processOptionToken(String token,boolean stopAtNonOption){
+  if (this.options.hasOption(token)) {
+ rank2fixstart     currentOption=this.options.getOption(token); rank2fixend 
+    tokens.add(token);
+  }
+ else   if (stopAtNonOption) {
+    eatTheRest=true;
+  }
+}

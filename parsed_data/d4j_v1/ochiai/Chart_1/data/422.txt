@@ -1,0 +1,28 @@
+public static Shape[] createStandardSeriesShapes(){
+  Shape[] result=new Shape[10];
+  double size=6.0;
+  double delta=size / 2.0;
+  int[] xpoints=null;
+  int[] ypoints=null;
+  result[0]=new Rectangle2D.Double(-delta,-delta,size,size);
+  result[1]=new Ellipse2D.Double(-delta,-delta,size,size);
+  xpoints=intArray(0.0,delta,-delta);
+  ypoints=intArray(-delta,delta,delta);
+  result[2]=new Polygon(xpoints,ypoints,3);
+  xpoints=intArray(0.0,delta,0.0,-delta);
+  ypoints=intArray(-delta,0.0,delta,0.0);
+  result[3]=new Polygon(xpoints,ypoints,4);
+  result[4]=new Rectangle2D.Double(-delta,-delta / 2,size,size / 2);
+  xpoints=intArray(-delta,+delta,0.0);
+  ypoints=intArray(-delta,-delta,delta);
+  result[5]=new Polygon(xpoints,ypoints,3);
+  result[6]=new Ellipse2D.Double(-delta,-delta / 2,size,size / 2);
+  xpoints=intArray(-delta,delta,-delta);
+  ypoints=intArray(-delta,0.0,delta);
+  result[7]=new Polygon(xpoints,ypoints,3);
+ rank2fixstart   result[8]=new Rectangle2D.Double(-delta / 2,-delta,size / 2,size); rank2fixend 
+  xpoints=intArray(-delta,delta,delta);
+  ypoints=intArray(0.0,-delta,+delta);
+  result[9]=new Polygon(xpoints,ypoints,3);
+  return result;
+}

@@ -1,0 +1,4 @@
+15c15
+<   return _factory._fromClass(null,base,null);
+---
+>  return _factory . _fromClass ( null , base , TypeBindings . emptyBindings ( ) ) ; 

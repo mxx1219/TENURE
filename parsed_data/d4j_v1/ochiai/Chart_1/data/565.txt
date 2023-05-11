@@ -1,0 +1,11 @@
+public RenderAttributes(boolean allowNull){
+  this.paintList=new PaintList();
+  this.defaultPaint=allowNull ? null : Color.BLACK;
+  this.strokeList=new StrokeList();
+  this.defaultStroke=allowNull ? null : new BasicStroke(1.0f);
+  this.fillPaintList=new PaintList();
+  this.defaultFillPaint=allowNull ? null : Color.BLACK;
+  this.outlinePaintList=new PaintList();
+  this.defaultOutlinePaint=allowNull ? null : Color.BLACK;
+ rank2fixstart   this.shapeList=new ShapeList(); rank2fixend 
+}

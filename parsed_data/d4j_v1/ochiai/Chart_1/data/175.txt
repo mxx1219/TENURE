@@ -1,0 +1,8 @@
+public void configureDomainAxes(){
+  for (int i=0; i < this.domainAxes.size(); i++) {
+ rank2fixstart     CategoryAxis axis=(CategoryAxis)this.domainAxes.get(i); rank2fixend 
+    if (axis != null) {
+      axis.configure();
+    }
+  }
+}

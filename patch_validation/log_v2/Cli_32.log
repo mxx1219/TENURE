@@ -1,0 +1,16 @@
+INFO:root:2023-02-16 18:31:20 --> Current Version: Cli_32
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.cli.HelpFormatter@937
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:31:25 --> Cli_32: (1) MutateOperators1 rank2fixsplit <= rank2fixsplit <
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:31:28 --> Cli_32: (2) MutateConditionalExpr2 rank2fixsplit && rank2fixsplit ( c != "STRING" )
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:31:36 --> Cli_32: (5) RemoveBuggyStmt
+INFO:root:Successful

@@ -1,0 +1,4 @@
+2c2
+<   this.checksum=checksum;
+---
+>  if ( in == null ) { throw new NullPointerException ( ) ; } this . checksum = checksum ;

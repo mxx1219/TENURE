@@ -1,0 +1,3 @@
+public String getOptionValue(char opt,String defaultValue){
+  return getOptionValue(String.valueOf(opt),defaultValue);
+}

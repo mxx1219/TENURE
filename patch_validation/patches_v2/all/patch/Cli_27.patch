@@ -1,0 +1,12 @@
+public void setSelected(Option option) throws AlreadySelectedException {
+  if (option == null) {
+    selected=null;
+    return;
+  }
+  if (selected == null || selected.equals(option.getOpt())) {
+ selected = option . getKey ( ) ; 
+  }
+ else {
+    throw new AlreadySelectedException(this,option);
+  }
+}

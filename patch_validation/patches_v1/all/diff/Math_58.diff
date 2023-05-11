@@ -1,0 +1,4 @@
+3c3
+<   return fit(new Gaussian.Parametric(),guess);
+---
+>  return fit ( guess ) ; 

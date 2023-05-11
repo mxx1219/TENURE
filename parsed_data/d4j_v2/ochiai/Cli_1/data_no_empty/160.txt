@@ -1,0 +1,6 @@
+public int hashCode(){
+  int result;
+  result=(opt != null ? opt.hashCode() : 0);
+ rank2fixstart   result=31 * result + (longOpt != null ? longOpt.hashCode() : 0); rank2fixend 
+  return result;
+}

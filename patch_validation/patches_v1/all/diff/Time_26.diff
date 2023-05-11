@@ -1,0 +1,4 @@
+4c4
+<   long result=iZone.convertLocalToUTC(localInstant,false);
+---
+>  long result = iZone . convertLocalToUTC ( localInstant , false , instant ) ; 

@@ -1,0 +1,9 @@
+public void mapDatasetToDomainAxes(int index,List axisIndices){
+  if (index < 0) {
+    throw new IllegalArgumentException("Requires 'index' >= 0.");
+  }
+  checkAxisIndices(axisIndices);
+  Integer key=new Integer(index);
+  this.datasetToDomainAxesMap.put(key,new ArrayList(axisIndices));
+ rank2fixstart   datasetChanged(new DatasetChangeEvent(this,getDataset(index),new DatasetChangeInfo())); rank2fixend 
+}

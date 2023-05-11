@@ -1,0 +1,17 @@
+public void datasetChanged(DatasetChangeEvent event){
+  int count=this.rangeAxes.size();
+  for (int axisIndex=0; axisIndex < count; axisIndex++) {
+    ValueAxis yAxis=getRangeAxis(axisIndex);
+    if (yAxis != null) {
+      yAxis.configure();
+    }
+  }
+  if (getParent() != null) {
+    getParent().datasetChanged(event);
+  }
+ else {
+ rank2fixstart     PlotChangeEvent e=new PlotChangeEvent(this); rank2fixend 
+    e.setType(ChartChangeEventType.DATASET_UPDATED);
+    notifyListeners(e);
+  }
+}

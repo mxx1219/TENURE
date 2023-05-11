@@ -1,0 +1,14 @@
+INFO:root:2023-02-16 20:23:56 --> Current Version: Closure_31
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.Compiler@1284
+INFO:root:False, False, False
+INFO:root:2023-02-16 20:24:16 --> Closure_31: (1) RemoveBuggyStmt
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:24:29 --> Closure_31: (2) MutateConditionalExpr2 rank2fixsplit && rank2fixsplit ! options . <unk>
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:26:50 --> Closure_31: (3) MutateConditionalExpr2 rank2fixsplit && rank2fixsplit ! options . skipAllPasses
+INFO:root:Successful

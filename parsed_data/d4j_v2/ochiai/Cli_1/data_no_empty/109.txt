@@ -1,0 +1,8 @@
+ rank2fixstart void addValue(String value){ rank2fixend 
+switch (numberOfArgs) {
+case UNINITIALIZED:
+    throw new RuntimeException("NO_ARGS_ALLOWED");
+default :
+  processValue(value);
+}
+}

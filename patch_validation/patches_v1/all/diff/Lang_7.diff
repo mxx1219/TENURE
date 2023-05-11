@@ -1,0 +1,4 @@
+8,10d7
+<   if (str.startsWith("--")) {
+<     return null;
+<   }

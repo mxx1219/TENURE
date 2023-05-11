@@ -1,0 +1,3 @@
+public boolean hasLongOpt(){
+ rank2fixstart   return (this.longOpt != null); rank2fixend 
+}

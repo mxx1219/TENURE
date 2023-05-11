@@ -1,0 +1,5 @@
+2c2,3
+<   return val;
+---
+> if (val == null) return "";
+>     return val;  

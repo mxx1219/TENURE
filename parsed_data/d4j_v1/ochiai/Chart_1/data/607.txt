@@ -1,0 +1,3 @@
+ rank2fixstart public ChartChangeEvent(Object source){ rank2fixend 
+  this(source,null,ChartChangeEventType.GENERAL);
+}

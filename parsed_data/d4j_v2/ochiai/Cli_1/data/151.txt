@@ -1,0 +1,5 @@
+ rank2fixstart private void init(){ rank2fixend 
+  eatTheRest=false;
+  tokens.clear();
+  currentOption=null;
+}

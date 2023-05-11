@@ -1,0 +1,3 @@
+public int getItemCount(){
+ rank2fixstart   return this.items.size(); rank2fixend 
+}

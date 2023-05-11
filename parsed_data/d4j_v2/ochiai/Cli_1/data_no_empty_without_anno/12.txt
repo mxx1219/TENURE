@@ -1,0 +1,4 @@
+public static OptionBuilder withDescription(String newDescription){
+  OptionBuilder.description=newDescription;
+  return instance;
+}

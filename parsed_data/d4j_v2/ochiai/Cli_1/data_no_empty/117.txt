@@ -1,0 +1,19 @@
+public void processArgs(Option opt,ListIterator iter) throws ParseException {
+  while (iter.hasNext()) {
+    String str=(String)iter.next();
+ rank2fixstart     if (options.hasOption(str) && str.startsWith("-")) { rank2fixend 
+      iter.previous();
+      break;
+    }
+    try {
+      opt.addValue(Util.stripLeadingAndTrailingQuotes(str));
+    }
+ catch (    RuntimeException exp) {
+      iter.previous();
+      break;
+    }
+  }
+  if ((opt.getValues() == null) && !opt.hasOptionalArg()) {
+    throw new MissingArgumentException("Missing argument for option:" + opt.getKey());
+  }
+}

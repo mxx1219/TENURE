@@ -1,0 +1,3 @@
+public void setValueSeparator(char sep){
+  this.valuesep=sep;
+}

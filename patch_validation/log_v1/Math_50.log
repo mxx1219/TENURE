@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 20:03:03 --> Current Version: Math_50
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.math.analysis.solvers.BaseSecantSolver@187
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:04:22 --> Math_50: (1) RemoveBuggyStmt
+INFO:root:Successful

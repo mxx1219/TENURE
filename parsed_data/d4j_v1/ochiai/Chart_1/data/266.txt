@@ -1,0 +1,10 @@
+public DefaultShadowGenerator(int size,Color color,float opacity,int distance,double angle){
+  if (color == null) {
+    throw new IllegalArgumentException("Null 'color' argument.");
+  }
+  this.shadowSize=size;
+ rank2fixstart   this.shadowColor=color; rank2fixend 
+  this.shadowOpacity=opacity;
+  this.distance=distance;
+  this.angle=angle;
+}

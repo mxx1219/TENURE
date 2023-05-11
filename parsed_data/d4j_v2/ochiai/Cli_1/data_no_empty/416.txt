@@ -1,0 +1,5 @@
+public String[] getArgs(){
+  String[] answer=new String[args.size()];
+  args.toArray(answer);
+ rank2fixstart   return answer; rank2fixend 
+}

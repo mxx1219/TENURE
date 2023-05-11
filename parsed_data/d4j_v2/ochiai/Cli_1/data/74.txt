@@ -1,0 +1,10 @@
+public Option(String opt,String longOpt,boolean hasArg,String description) throws IllegalArgumentException {
+  OptionValidator.validateOption(opt);
+  this.opt=opt;
+  this.longOpt=longOpt;
+  if (hasArg) {
+    this.numberOfArgs=1;
+  }
+ rank2fixstart   this.hasArg=hasArg; rank2fixend 
+  this.description=description;
+}

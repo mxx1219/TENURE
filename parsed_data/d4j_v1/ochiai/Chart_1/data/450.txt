@@ -1,0 +1,3 @@
+public RectangleInsets(double top,double left,double bottom,double right){
+ rank2fixstart   this(UnitType.ABSOLUTE,top,left,bottom,right); rank2fixend 
+}

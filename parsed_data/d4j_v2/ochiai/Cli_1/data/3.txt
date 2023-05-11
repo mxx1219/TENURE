@@ -1,0 +1,3 @@
+public boolean hasArgName(){
+ rank2fixstart   return (this.argName != null && this.argName.length() > 0); rank2fixend 
+}

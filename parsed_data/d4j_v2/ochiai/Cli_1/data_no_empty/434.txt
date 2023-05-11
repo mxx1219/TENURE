@@ -1,0 +1,3 @@
+public UnrecognizedOptionException(String message){
+ rank2fixstart   super(message); rank2fixend 
+}

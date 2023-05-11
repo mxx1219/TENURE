@@ -1,0 +1,3 @@
+public boolean hasOption(String opt){
+ rank2fixstart   return options.containsKey(opt); rank2fixend 
+}

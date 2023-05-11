@@ -1,0 +1,20 @@
+private void checkAxisIndices(List indices){
+  if (indices == null) {
+    return;
+  }
+  int count=indices.size();
+  if (count == 0) {
+    throw new IllegalArgumentException("Empty list not permitted.");
+  }
+ rank2fixstart   HashSet set=new HashSet(); rank2fixend 
+  for (int i=0; i < count; i++) {
+    Object item=indices.get(i);
+    if (!(item instanceof Integer)) {
+      throw new IllegalArgumentException("Indices must be Integer instances.");
+    }
+    if (set.contains(item)) {
+      throw new IllegalArgumentException("Indices must be unique.");
+    }
+    set.add(item);
+  }
+}

@@ -1,0 +1,4 @@
+3c3
+<     if ((leftType.isConstructor() || leftType.isEnumType()) && (rightType.isConstructor() || rightType.isEnumType())) {
+---
+>  if ( ( leftType . isConstructor ( ) || leftType . isEnumType ( ) ) && rightType . getJSDocInfo ( ) != null && ( rightType . isConstructor ( ) || rightType . isEnumType ( ) ) ) { 

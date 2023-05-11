@@ -1,0 +1,3 @@
+public boolean isSupportLowerBoundInclusive(){
+ if ( isSupportUpperBoundInclusive ( ) ) { return true ; } return false ;
+}

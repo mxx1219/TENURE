@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 18:27:49 --> Current Version: Compress_27
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.compress.archivers.tar.TarUtils@133
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:28:06 --> Compress_27: (1) RemoveBuggyStmt
+INFO:root:Successful

@@ -1,0 +1,7 @@
+INFO:root:2023-02-16 18:29:32 --> Current Version: Cli_27
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.cli.OptionGroup@100
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:29:41 --> Cli_27: (2) MutateMethodInvExpr1 rank2fixsplit getOpt rank2fixsplit <unk>
+INFO:root:Successful

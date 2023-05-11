@@ -1,0 +1,4 @@
+4c4
+<     max+=Math.max(max,Math.abs(a));
+---
+>  max = max + 1 ;

@@ -1,0 +1,3 @@
+public RenderAttributes(){
+ rank2fixstart   this(true); rank2fixend 
+}

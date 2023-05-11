@@ -1,0 +1,5 @@
+public static OptionBuilder hasOptionalArgs(int numArgs){
+  OptionBuilder.numberOfArgs=numArgs;
+  OptionBuilder.optionalArg=true;
+  return instance;
+}

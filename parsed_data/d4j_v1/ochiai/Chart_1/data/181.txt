@@ -1,0 +1,8 @@
+ rank2fixstart public void configureRangeAxes(){ rank2fixend 
+  for (int i=0; i < this.rangeAxes.size(); i++) {
+    ValueAxis axis=(ValueAxis)this.rangeAxes.get(i);
+    if (axis != null) {
+      axis.configure();
+    }
+  }
+}

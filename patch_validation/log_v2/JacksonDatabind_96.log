@@ -1,0 +1,6 @@
+INFO:root:2023-02-16 18:26:23 --> Current Version: JacksonDatabind_96
+INFO:root:defects4j compile ...
+INFO:root:========== com.fasterxml.jackson.databind.deser.BasicDeserializerFactory@735
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:29:19 --> JacksonDatabind_96: (1) MutateMethodInvExpr1 rank2fixsplit findImplicitParamName rank2fixsplit <unk>
+INFO:root:Successful

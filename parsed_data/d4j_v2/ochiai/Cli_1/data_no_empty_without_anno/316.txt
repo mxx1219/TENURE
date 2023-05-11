@@ -1,0 +1,3 @@
+public CommandLine parse(Options options,String[] arguments,boolean stopAtNonOption) throws ParseException {
+  return parse(options,arguments,null,stopAtNonOption);
+}

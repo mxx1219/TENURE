@@ -1,0 +1,4 @@
+62c62
+< break;
+---
+>  return _currText ;

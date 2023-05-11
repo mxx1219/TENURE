@@ -1,0 +1,4 @@
+2c2
+<   return (double)(getSampleSize() * getNumberOfSuccesses()) / (double)getPopulationSize();
+---
+>  return Math . abs ( getSampleSize ( ) * getNumberOfSuccesses ( ) ) / ( double ) getPopulationSize ( ) ; 

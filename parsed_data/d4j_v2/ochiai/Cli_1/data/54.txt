@@ -1,0 +1,3 @@
+public void setRequired(boolean required){
+ rank2fixstart   this.required=required; rank2fixend 
+}

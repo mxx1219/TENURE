@@ -1,0 +1,3 @@
+private TextAnchor(String name){
+ rank2fixstart   this.name=name; rank2fixend 
+}

@@ -1,0 +1,3 @@
+public SelectableValue(Number value){
+ rank2fixstart   this(value,false); rank2fixend 
+}

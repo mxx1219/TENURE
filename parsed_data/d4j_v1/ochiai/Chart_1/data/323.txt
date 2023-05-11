@@ -1,0 +1,7 @@
+protected Object get(int index){
+  Object result=null;
+ rank2fixstart   if (index >= 0 && index < this.size) { rank2fixend 
+    result=this.objects[index];
+  }
+  return result;
+}

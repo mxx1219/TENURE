@@ -1,0 +1,4 @@
+public String getOptionValue(String opt,String defaultValue){
+ rank2fixstart   String answer=getOptionValue(opt); rank2fixend 
+  return (answer != null) ? answer : defaultValue;
+}

@@ -1,0 +1,3 @@
+public void addValue(double value,Comparable rowKey,Comparable columnKey){
+ rank2fixstart   addValue(new Double(value),rowKey,columnKey); rank2fixend 
+}

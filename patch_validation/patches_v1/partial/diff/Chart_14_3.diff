@@ -1,0 +1,5 @@
+9c9,10
+<   boolean removed=markers.remove(marker);
+---
+> if (markers == null) return false;
+>     boolean removed=markers.remove(marker);  

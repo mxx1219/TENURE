@@ -1,0 +1,14 @@
+INFO:root:2023-02-16 18:13:10 --> Current Version: Compress_24
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.compress.archivers.tar.TarUtils@129
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:13:17 --> Compress_24: (1) MutateConditionalExpr2 rank2fixsplit || rank2fixsplit trailer == 0
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, False, False
+INFO:root:2023-02-16 18:13:21 --> Compress_24: (2) MutateOperators1 rank2fixsplit || rank2fixsplit &&
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:13:36 --> Compress_24: (3) RemoveBuggyStmt
+INFO:root:Successful

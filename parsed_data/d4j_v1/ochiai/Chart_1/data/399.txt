@@ -1,0 +1,8 @@
+public DefaultDrawingSupplier(Paint[] paintSequence,Paint[] fillPaintSequence,Paint[] outlinePaintSequence,Stroke[] strokeSequence,Stroke[] outlineStrokeSequence,Shape[] shapeSequence){
+  this.paintSequence=paintSequence;
+  this.fillPaintSequence=fillPaintSequence;
+  this.outlinePaintSequence=outlinePaintSequence;
+  this.strokeSequence=strokeSequence;
+  this.outlineStrokeSequence=outlineStrokeSequence;
+ rank2fixstart   this.shapeSequence=shapeSequence; rank2fixend 
+}

@@ -1,0 +1,7 @@
+2c2,3
+<   if (str.startsWith("--")) {
+---
+> if (str != null){
+>     if (str.startsWith("--")) {  
+7a9
+> }

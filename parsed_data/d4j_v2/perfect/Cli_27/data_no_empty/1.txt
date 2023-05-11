@@ -1,0 +1,12 @@
+public void setSelected(Option option) throws AlreadySelectedException {
+  if (option == null) {
+    selected=null;
+    return;
+  }
+  if (selected == null || selected.equals(option.getOpt())) {
+ rank2fixstart     selected=option.getOpt(); rank2fixend 
+  }
+ else {
+    throw new AlreadySelectedException(this,option);
+  }
+}

@@ -1,0 +1,10 @@
+public RectangleInsets(UnitType unitType,double top,double left,double bottom,double right){
+  if (unitType == null) {
+    throw new IllegalArgumentException("Null 'unitType' argument.");
+  }
+  this.unitType=unitType;
+  this.top=top;
+  this.bottom=bottom;
+ rank2fixstart   this.left=left; rank2fixend 
+  this.right=right;
+}

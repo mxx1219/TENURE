@@ -1,0 +1,3 @@
+public LineAndShapeRenderer(){
+ rank2fixstart   this(true,true); rank2fixend 
+}

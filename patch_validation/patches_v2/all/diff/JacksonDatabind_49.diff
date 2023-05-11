@@ -1,0 +1,6 @@
+2c2,4
+<   id=generator.generateId(forPojo);
+---
+> if (id == null){
+>     id=generator.generateId(forPojo);  
+> }

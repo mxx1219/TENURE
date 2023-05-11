@@ -1,0 +1,8 @@
+ rank2fixstart public DatasetChangeEvent(Object source,Dataset dataset,DatasetChangeInfo info){ rank2fixend 
+  super(source);
+  if (info == null) {
+    throw new IllegalArgumentException("Null 'info' argument.");
+  }
+  this.dataset=dataset;
+  this.info=info;
+}

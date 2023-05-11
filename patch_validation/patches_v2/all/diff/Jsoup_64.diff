@@ -1,0 +1,4 @@
+2d1
+<   tb.insert(startTag);
+3a3
+>     tb.insert(startTag);  

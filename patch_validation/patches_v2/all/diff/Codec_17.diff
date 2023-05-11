@@ -1,0 +1,4 @@
+2c2
+<   return new String(bytes,Charsets.ISO_8859_1);
+---
+>  return bytes == null ? null : new String ( bytes , Charsets . ISO_8859_1 ) ; 

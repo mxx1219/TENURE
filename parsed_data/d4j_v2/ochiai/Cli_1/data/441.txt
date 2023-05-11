@@ -1,0 +1,5 @@
+public Option[] getOptions(){
+  Collection processed=options.values();
+  Option[] optionsArray=new Option[processed.size()];
+ rank2fixstart   return (Option[])processed.toArray(optionsArray); rank2fixend 
+}

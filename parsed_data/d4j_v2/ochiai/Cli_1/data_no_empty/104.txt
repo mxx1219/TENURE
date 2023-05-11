@@ -1,0 +1,9 @@
+static String stripLeadingAndTrailingQuotes(String str){
+  if (str.startsWith("\"")) {
+    str=str.substring(1,str.length());
+  }
+ rank2fixstart   if (str.endsWith("\"")) { rank2fixend 
+    str=str.substring(0,str.length() - 1);
+  }
+  return str;
+}

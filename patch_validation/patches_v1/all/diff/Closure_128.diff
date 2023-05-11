@@ -1,0 +1,4 @@
+9c9
+<   return len > 0 && s.charAt(0) != '0';
+---
+>  if ( len == 1 ) { return true ; } return len > 0 && s . charAt ( 0 ) != '0' ;

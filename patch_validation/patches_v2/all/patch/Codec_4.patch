@@ -1,0 +1,3 @@
+public Base64(){
+ this ( DEFAULT_BUFFER_RESIZE_FACTOR ) ; 
+}

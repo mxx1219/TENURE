@@ -1,0 +1,3 @@
+public char getValueSeparator(){
+ rank2fixstart   return this.valuesep; rank2fixend 
+}

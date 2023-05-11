@@ -1,0 +1,3 @@
+public void setType(Object type){
+  this.type=type;
+}

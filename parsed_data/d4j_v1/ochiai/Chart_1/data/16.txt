@@ -1,0 +1,3 @@
+ rank2fixstart public CategoryPlot(){ rank2fixend 
+  this(null,null,null,null);
+}

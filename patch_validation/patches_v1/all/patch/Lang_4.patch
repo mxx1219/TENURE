@@ -1,0 +1,19 @@
+public LookupTranslator(final CharSequence[]... lookup){
+  lookupMap=new HashMap<CharSequence,CharSequence>();
+  int _shortest=Integer.MAX_VALUE;
+  int _longest=0;
+  if (lookup != null) {
+    for (    final CharSequence[] seq : lookup) {
+ this . lookupMap . put ( seq [ 0 ] . toString ( ) , seq [ 1 ] ) ; 
+      final int sz=seq[0].length();
+      if (sz < _shortest) {
+        _shortest=sz;
+      }
+      if (sz > _longest) {
+        _longest=sz;
+      }
+    }
+  }
+  shortest=_shortest;
+  longest=_longest;
+}

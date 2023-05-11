@@ -1,0 +1,12 @@
+INFO:root:2023-02-16 20:08:12 --> Current Version: Math_5
+INFO:root:defects4j compile ...
+INFO:root:========== org.apache.commons.math3.complex.Complex@305
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:08:25 --> Math_5: (1) MutateReturnStmt rank2fixsplit NaN rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:08:26 --> Math_5: (1) MutateReturnStmt rank2fixsplit NaN rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:10:52 --> Math_5: (1) MutateReturnStmt rank2fixsplit NaN rank2fixsplit <unk>
+INFO:root:Successful

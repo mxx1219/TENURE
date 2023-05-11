@@ -1,0 +1,3 @@
+public char getValueSeparator(){
+  return this.valuesep;
+}

@@ -1,0 +1,4 @@
+11c11
+<           defineSlot(astParameter,functionNode,jsDocParameter.getJSType(),true);
+---
+>  defineSlot ( astParameter , functionNode , jsDocParameter . getJSType ( ) , false ) ; 

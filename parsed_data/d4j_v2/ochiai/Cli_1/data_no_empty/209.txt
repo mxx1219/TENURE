@@ -1,0 +1,4 @@
+public static OptionBuilder isRequired(boolean newRequired){
+  OptionBuilder.required=newRequired;
+ rank2fixstart   return instance; rank2fixend 
+}

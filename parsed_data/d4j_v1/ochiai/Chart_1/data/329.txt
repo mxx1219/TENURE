@@ -1,0 +1,11 @@
+public void notifyListeners(PlotChangeEvent event){
+  if (!this.notify) {
+    return;
+  }
+ rank2fixstart   Object[] listeners=this.listenerList.getListenerList(); rank2fixend 
+  for (int i=listeners.length - 2; i >= 0; i-=2) {
+    if (listeners[i] == PlotChangeListener.class) {
+      ((PlotChangeListener)listeners[i + 1]).plotChanged(event);
+    }
+  }
+}

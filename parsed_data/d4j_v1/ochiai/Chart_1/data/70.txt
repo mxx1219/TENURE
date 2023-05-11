@@ -1,0 +1,4 @@
+ rank2fixstart public DefaultCategoryDataset(){ rank2fixend 
+  this.data=new KeyedObjects2D();
+  setSelectionState(this);
+}

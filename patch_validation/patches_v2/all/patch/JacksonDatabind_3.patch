@@ -1,0 +1,32 @@
+public String[] deserialize(JsonParser jp,DeserializationContext ctxt) throws IOException {
+  if (!jp.isExpectedStartArrayToken()) {
+    return handleNonArray(jp,ctxt);
+  }
+  if (_elementDeserializer != null) {
+    return _deserializeCustom(jp,ctxt);
+  }
+  final ObjectBuffer buffer=ctxt.leaseObjectBuffer();
+  Object[] chunk=buffer.resetAndStart();
+  int ix=0;
+  JsonToken t;
+  while ((t=jp.nextToken()) != JsonToken.END_ARRAY) {
+    String value;
+    if (t == JsonToken.VALUE_STRING) {
+      value=jp.getText();
+    }
+ else     if (t == JsonToken.VALUE_NULL) {
+ value = null ;
+    }
+ else {
+      value=_parseString(jp,ctxt);
+    }
+    if (ix >= chunk.length) {
+      chunk=buffer.appendCompletedChunk(chunk);
+      ix=0;
+    }
+    chunk[ix++]=value;
+  }
+  String[] result=buffer.completeAndClearBuffer(chunk,ix,String.class);
+  ctxt.returnObjectBuffer(buffer);
+  return result;
+}

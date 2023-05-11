@@ -1,0 +1,4 @@
+public String getOptionValue(String opt,String defaultValue){
+  String answer=getOptionValue(opt);
+  return (answer != null) ? answer : defaultValue;
+}

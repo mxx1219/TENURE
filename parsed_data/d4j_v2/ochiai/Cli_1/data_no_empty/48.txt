@@ -1,0 +1,3 @@
+ rank2fixstart public Option(String opt,String description) throws IllegalArgumentException { rank2fixend 
+  this(opt,null,false,description);
+}

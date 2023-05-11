@@ -1,0 +1,3 @@
+public double getNumericalMean(){
+ return Math . abs ( getSampleSize ( ) * getNumberOfSuccesses ( ) ) / ( double ) getPopulationSize ( ) ; 
+}

@@ -1,0 +1,9 @@
+public void setRangeAxisLocation(int index,AxisLocation location,boolean notify){
+ rank2fixstart   if (index == 0 && location == null) { rank2fixend 
+    throw new IllegalArgumentException("Null 'location' for index 0 not permitted.");
+  }
+  this.rangeAxisLocations.set(index,location);
+  if (notify) {
+    fireChangeEvent();
+  }
+}

@@ -1,0 +1,7 @@
+2c2,3
+<   for (  final Entry<String,Integer> entry : mapping.entrySet()) {
+---
+> if (mapping != null){
+>     for (  final Entry<String,Integer> entry : mapping.entrySet()) {  
+7a9
+> }

@@ -1,0 +1,4 @@
+2c2
+<   final int n1n2prod=n1 * n2;
+---
+>  final long n1n2prod = n1 * n2 ; 

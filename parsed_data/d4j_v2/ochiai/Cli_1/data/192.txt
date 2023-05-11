@@ -1,0 +1,7 @@
+public Option getOption(String opt){
+ rank2fixstart   opt=Util.stripLeadingHyphens(opt); rank2fixend 
+  if (shortOpts.containsKey(opt)) {
+    return (Option)shortOpts.get(opt);
+  }
+  return (Option)longOpts.get(opt);
+}

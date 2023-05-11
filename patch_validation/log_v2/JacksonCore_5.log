@@ -1,0 +1,11 @@
+INFO:root:2023-02-16 18:30:34 --> Current Version: JacksonCore_5
+INFO:root:defects4j compile ...
+INFO:root:========== com.fasterxml.jackson.core.JsonPointer@193
+INFO:root:defects4j compile ...
+INFO:root:False, False, False
+INFO:root:2023-02-16 18:30:39 --> JacksonCore_5: (2) InsertNullPointerChecker1 rank2fixsplit str
+INFO:root:Failed
+INFO:root:defects4j compile ...
+INFO:root:True, True, True
+INFO:root:2023-02-16 18:30:52 --> JacksonCore_5: (3) MutateMethodInvExpr2 rank2fixsplit i ++ rank2fixsplit i
+INFO:root:Successful

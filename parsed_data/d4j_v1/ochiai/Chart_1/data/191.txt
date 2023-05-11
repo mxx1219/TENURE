@@ -1,0 +1,7 @@
+public CategoryDataset getDataset(int index){
+ rank2fixstart   CategoryDataset result=null; rank2fixend 
+  if (this.datasets.size() > index) {
+    result=(CategoryDataset)this.datasets.get(index);
+  }
+  return result;
+}

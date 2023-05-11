@@ -1,0 +1,12 @@
+INFO:root:2023-02-16 20:29:31 --> Current Version: Closure_14
+INFO:root:defects4j compile ...
+INFO:root:========== com.google.javascript.jscomp.ControlFlowAnalysis@767
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:29:53 --> Closure_14: (1) MutateVariable1 rank2fixsplit UNCOND rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, False, False
+INFO:root:2023-02-16 20:29:57 --> Closure_14: (1) MutateVariable1 rank2fixsplit UNCOND rank2fixsplit <unk>
+INFO:root:Failed
+INFO:root:True, True, True
+INFO:root:2023-02-16 20:32:17 --> Closure_14: (1) MutateVariable1 rank2fixsplit UNCOND rank2fixsplit <unk>
+INFO:root:Successful

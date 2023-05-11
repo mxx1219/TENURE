@@ -1,0 +1,3 @@
+public void set(int index,Object object){
+ rank2fixstart   super.set(index,object); rank2fixend 
+}

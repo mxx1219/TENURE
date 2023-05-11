@@ -1,0 +1,4 @@
+2c2
+<   return chromosomes.iterator();
+---
+>  return getChromosomes ( ) . iterator ( ) ; 
